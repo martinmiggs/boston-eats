@@ -61,9 +61,9 @@
     const allActive = [...activeFilters.cuisine, ...activeFilters.location];
     let html = '';
 
-    // Filter input (persistent container)
+    // Filter input (recreated each time with inline handlers)
     html += '<div class="filter-section">';
-    html += '<div id="filter-input-wrap" class="filter-input-wrap"></div>';
+    html += `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" oninput="handleInput(event)" onkeydown="handleKeyDown(event)" onfocus="showDropdown()" onblur="hideDropdown()" />`;
     html += '<div id="suggestions" class="suggestions"></div>';
     html += '<div id="active-filters" class="active-filters"></div>';
     if (allActive.length > 0) {
@@ -100,8 +100,6 @@
     }
     app.innerHTML = html;
 
-    // Build persistent filter input
-    renderFilterInput();
     // Render chips
     renderChips(allActive);
     // Render count
@@ -109,20 +107,6 @@
     // Render suggestions if input has text
     if (_inputValue.length > 0) {
       updateSuggestions(allTags);
-    }
-  }
-
-  function renderFilterInput() {
-    const wrap = document.getElementById('filter-input-wrap');
-    if (!wrap) return;
-    // Only create if it doesn't exist yet (avoids losing focus)
-    if (!document.getElementById('filter-input')) {
-      wrap.innerHTML = `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" />`;
-      const input = document.getElementById('filter-input');
-      input.addEventListener('input', handleInput);
-      input.addEventListener('keydown', handleKeyDown);
-      input.addEventListener('focus', showDropdown);
-      input.addEventListener('blur', hideDropdown);
     }
   }
 
@@ -174,7 +158,17 @@
     if (e.key === 'Enter') {
       const val = e.target.value.trim();
       if (val) {
-        addFilter(val);
+        const allTags = getAllTagValues();
+        const allActive = [...activeFilters.cuisine, ...activeFilters.location];
+        // Auto-select matching suggestion (exact or partial)
+        const match = allTags.find(t =>
+          !allActive.includes(t) && t.toLowerCase().includes(val.toLowerCase())
+        );
+        if (match) {
+          addFilter(match);
+        } else {
+          addFilter(val);
+        }
         _inputValue = '';
         e.target.value = '';
         e.target.blur();

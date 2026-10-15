@@ -305,10 +305,7 @@ main {
 /* Filter section */
 .filter-section {
   margin-bottom: 12px;
-}
-
-.filter-input-wrap {
-  margin-bottom: 8px;
+  position: relative;
 }
 
 .filter-input {
@@ -322,6 +319,7 @@ main {
   outline: none;
   transition: border-color 0.15s ease;
   box-sizing: border-box;
+  margin-bottom: 4px;
 }
 
 .filter-input:focus {
@@ -334,9 +332,18 @@ main {
 }
 
 .suggestions {
-  position: relative;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
   max-height: 200px;
   overflow-y: auto;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-top: 4px;
+  z-index: 50;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .suggestion-item {
