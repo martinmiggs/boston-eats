@@ -16,7 +16,7 @@
       "Sun": "11:00 AM - 8:00 PM"
     },
     "notes": "Pork fried buns",
-    "maps_url": "https://www.google.com/maps/search/?query=Potluck+Cafe+7+Knapp+St+Boston+MA+02111",
+    "maps_url": "https://www.google.com/maps/place/Potluck+Cafe/@42.351183,-71.062283,17z",
     "menu": {
       "Appetizers": [
         { "name": "Pork Fried Buns (生煎包)", "price": 10.00, "notes": "8 pcs, Pan-fried soup dumplings" },
@@ -87,7 +87,7 @@
       "Sun": "10:00 AM - 1:00 AM"
     },
     "notes": "Spice Bag!!",
-    "maps_url": "https://www.google.com/maps/search/?query=McGonagle%27s+Pub+%26+Restaurant+367+Neponset+Ave+Dorchester+MA+02122",
+    "maps_url": "https://www.google.com/maps/place/McGonagle%27s+Pub+Restaurant/@42.286571,-71.045148,17z",
     "menu": {
       "Breakfast": [
         { "name": "MC G Breakfast Roll", "price": 15.00, "notes": "Hash Browns and Toast" }
@@ -137,7 +137,7 @@
       "Sun": "4:00 PM - 8:00 PM"
     },
     "notes": "",
-    "maps_url": "https://www.google.com/maps/search/?query=Aatma+At+Widowmaker+190+N+Beacon+St+Brighton+MA+02135",
+    "maps_url": "https://www.google.com/maps/place/Aatma+At+Widowmaker/@42.3557045,-71.147939,17z",
     "menu": {
       "Signature": [
         { "name": "The Aatma Burger", "price": 20.00, "notes": "Two masala-spiced halal beef patties smashed, dripping in Aatma sauce, achari onions, Amul cheese. Comes with Chaat-er Tots. Gluten free upon request +$1" },
