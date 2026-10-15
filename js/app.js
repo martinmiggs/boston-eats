@@ -2,6 +2,7 @@
   const app = document.getElementById('app');
   let restaurants = [];
   let activeFilters = { cuisine: [], location: [] };
+  let _inputValue = '';
 
   // Load data
   async function loadData() {
@@ -15,15 +16,27 @@
     }
   }
 
-  // Get all unique tags
-  function getAllTags() {
+  // Get all unique tag values
+  function getAllTagValues() {
+    const allTags = new Set();
+    restaurants.forEach(r => {
+      (r.tags?.cuisine || []).forEach(c => allTags.add(c));
+      (r.tags?.location || []).forEach(l => allTags.add(l));
+    });
+    return Array.from(allTags).sort();
+  }
+
+  // Determine if a tag is cuisine or location
+  function getTagCategory(tag) {
     const cuisines = new Set();
     const locations = new Set();
     restaurants.forEach(r => {
       (r.tags?.cuisine || []).forEach(c => cuisines.add(c));
       (r.tags?.location || []).forEach(l => locations.add(l));
     });
-    return { cuisines: Array.from(cuisines).sort(), locations: Array.from(locations).sort() };
+    if (cuisines.has(tag)) return 'cuisine';
+    if (locations.has(tag)) return 'location';
+    return 'unknown';
   }
 
   // Filter restaurants based on active filters
@@ -43,42 +56,30 @@
 
   // Render the list of restaurants
   function renderList() {
-    const tags = getAllTags();
+    const allTags = getAllTagValues();
     const filtered = filterRestaurants();
+    const allActive = [...activeFilters.cuisine, ...activeFilters.location];
+    const suggestions = allTags.filter(t =>
+      !allActive.includes(t) && t.toLowerCase().includes(_inputValue.toLowerCase())
+    );
     let html = '';
 
-    // Filter section
+    // Filter input
     html += '<div class="filter-section">';
-    html += '<h3 class="filter-title">Filter by:</h3>';
-
-    // Cuisine filters
-    if (tags.cuisines.length > 0) {
-      html += '<div class="filter-group">';
-      html += '<span class="filter-group-label">Cuisine</span>';
-      tags.cuisines.forEach(tag => {
-        const checked = activeFilters.cuisine.includes(tag) ? 'checked' : '';
-        html += `<label class="filter-checkbox"><input type="checkbox" onchange="toggleFilter('cuisine', '${tag}')" ${checked}>${esc(tag)}</label>`;
-      });
-      html += '</div>';
+    html += '<div class="filter-input-wrap">';
+    html += `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" oninput="handleInput()" onkeydown="handleKeyDown(event)" onfocus="showDropdown()" onblur="hideDropdown()" />`;
+    html += '</div>';
+    html += '<div id="suggestions" class="suggestions"></div>';
+    html += '<div class="active-filters">';
+    allActive.forEach(tag => {
+      const cat = getTagCategory(tag);
+      const icon = cat === 'cuisine' ? '🍽' : '📍';
+      html += `<span class="chip" onclick="removeFilter('${tag}')">${icon} ${esc(tag)} <span class="chip-remove">×</span></span>`;
+    });
+    html += '</div>';
+    if (allActive.length > 0) {
+      html += `<div class="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
     }
-
-    // Location filters
-    if (tags.locations.length > 0) {
-      html += '<div class="filter-group">';
-      html += '<span class="filter-group-label">Location</span>';
-      tags.locations.forEach(tag => {
-        const checked = activeFilters.location.includes(tag) ? 'checked' : '';
-        html += `<label class="filter-checkbox"><input type="checkbox" onchange="toggleFilter('location', '${tag}')" ${checked}>${esc(tag)}</label>`;
-      });
-      html += '</div>';
-    }
-
-    // Clear filters
-    if (activeFilters.cuisine.length > 0 || activeFilters.location.length > 0) {
-      html += '<button class="clear-filters" onclick="clearFilters()">Clear filters</button>';
-    }
-
-    html += `<div class="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
     html += '</div>';
 
     // Restaurant cards
@@ -107,22 +108,95 @@
       });
     }
     app.innerHTML = html;
+
+    // Highlight suggestions after render
+    if (suggestions.length > 0 && _inputValue.length > 0) {
+      highlightSuggestions(suggestions);
+    }
+  }
+
+  function highlightSuggestions(suggestions) {
+    const suggestionsEl = document.getElementById('suggestions');
+    if (!suggestionsEl) return;
+    suggestionsEl.innerHTML = suggestions.map((s, i) => {
+      const cat = getTagCategory(s);
+      const icon = cat === 'cuisine' ? '🍽' : '📍';
+      const highlighted = s.replace(
+        new RegExp(`(${_inputValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'),
+        '<mark>$1</mark>'
+      );
+      return `<div class="suggestion-item" data-index="${i}" onclick="selectSuggestion('${esc(s)}')" onmouseenter="highlightIndex(${i})">${icon} ${highlighted}</div>`;
+    }).join('');
+  }
+
+  function handleInput() {
+    const input = document.getElementById('filter-input');
+    if (input) {
+      _inputValue = input.value;
+      renderList();
+    }
+  }
+
+  function handleKeyDown(e) {
+    if (e.key === 'Enter') {
+      const input = document.getElementById('filter-input');
+      const val = input ? input.value.trim() : '';
+      if (val) {
+        addFilter(val);
+        _inputValue = '';
+        input.value = '';
+        renderList();
+      }
+    }
+  }
+
+  function highlightIndex(idx) {
+    const items = document.querySelectorAll('.suggestion-item');
+    items.forEach((item, i) => {
+      item.classList.toggle('active', i === idx);
+    });
+  }
+
+  function selectSuggestion(tag) {
+    addFilter(tag);
+    _inputValue = '';
+    document.getElementById('filter-input').value = '';
+    renderList();
+  }
+
+  function showDropdown() {
+    renderList();
+  }
+
+  function hideDropdown() {
+    setTimeout(() => {
+      const sg = document.getElementById('suggestions');
+      if (sg) sg.innerHTML = '';
+    }, 200);
   }
 
   // Expose filter functions globally
-  window.toggleFilter = function (type, tag) {
-    const arr = activeFilters[type];
-    const idx = arr.indexOf(tag);
-    if (idx >= 0) {
-      arr.splice(idx, 1);
-    } else {
-      arr.push(tag);
+  window.addFilter = function (tag) {
+    const cat = getTagCategory(tag);
+    if (cat === 'cuisine') {
+      if (!activeFilters.cuisine.includes(tag)) activeFilters.cuisine.push(tag);
+    } else if (cat === 'location') {
+      if (!activeFilters.location.includes(tag)) activeFilters.location.push(tag);
     }
+    renderList();
+  };
+
+  window.removeFilter = function (tag) {
+    const idx = activeFilters.cuisine.indexOf(tag);
+    if (idx >= 0) { activeFilters.cuisine.splice(idx, 1); }
+    const idx2 = activeFilters.location.indexOf(tag);
+    if (idx2 >= 0) { activeFilters.location.splice(idx2, 1); }
     renderList();
   };
 
   window.clearFilters = function () {
     activeFilters = { cuisine: [], location: [] };
+    _inputValue = '';
     renderList();
   };
 

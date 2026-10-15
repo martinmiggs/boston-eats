@@ -307,37 +307,104 @@ main {
   margin-bottom: 12px;
 }
 
-.filter-title {
-  font-size: 0.9rem;
-  font-weight: 700;
+.filter-input-wrap {
   margin-bottom: 8px;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid var(--border);
+  border-radius: 25px;
+  font-size: 0.9rem;
+  background: var(--card-bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s ease;
+  box-sizing: border-box;
+}
+
+.filter-input:focus {
+  border-color: var(--accent);
+}
+
+.filter-input::placeholder {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.suggestions {
+  position: relative;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  margin-bottom: 2px;
+  transition: background 0.1s ease;
+}
+
+.suggestion-item:hover,
+.suggestion-item.active {
+  background: var(--border);
   color: var(--text);
 }
 
-.filter-group {
+.suggestion-item mark {
+  background: #ffe066;
+  color: var(--text);
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
   margin-bottom: 8px;
 }
 
-.filter-group-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--accent);
-  display: block;
-  margin-bottom: 4px;
-  text-transform: uppercase;
-}
-
-.filter-checkbox {
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
   font-size: 0.82rem;
-  display: block;
-  padding: 2px 0;
-  color: var(--text-secondary);
+  font-weight: 600;
+  background: #e8f4f8;
+  color: #0c5460;
   cursor: pointer;
+  user-select: none;
+  transition: background 0.1s ease;
 }
 
-.filter-checkbox input {
-  margin-right: 4px;
-  vertical-align: middle;
+.chip:hover {
+  background: #d0e8f0;
+}
+
+.chip-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+  font-size: 0.75rem;
+  line-height: 1;
+  margin-left: 2px;
+}
+
+.chip-remove:hover {
+  background: var(--accent);
+  color: white;
 }
 
 .clear-filters {
