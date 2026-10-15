@@ -228,6 +228,13 @@
     const app = document.getElementById('app');
     let activeFilters = { cuisine: [], location: [] };
 
+    function esc(str) {
+      if (!str) return '';
+      const d = document.createElement('div');
+      d.appendChild(document.createTextNode(str));
+      return d.innerHTML;
+    }
+
     function getAllTags() {
       const cuisines = new Set();
       const locations = new Set();
