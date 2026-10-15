@@ -54,31 +54,22 @@
     });
   }
 
-  // Render the list of restaurants
+  // Render the filter input + chips + cards (initial mount)
   function renderList() {
     const allTags = getAllTagValues();
     const filtered = filterRestaurants();
     const allActive = [...activeFilters.cuisine, ...activeFilters.location];
-    const suggestions = allTags.filter(t =>
-      !allActive.includes(t) && t.toLowerCase().includes(_inputValue.toLowerCase())
-    );
     let html = '';
 
-    // Filter input
+    // Filter input (persistent container)
     html += '<div class="filter-section">';
-    html += '<div class="filter-input-wrap">';
-    html += `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" oninput="handleInput()" onkeydown="handleKeyDown(event)" onfocus="showDropdown()" onblur="hideDropdown()" />`;
-    html += '</div>';
+    html += '<div id="filter-input-wrap" class="filter-input-wrap"></div>';
     html += '<div id="suggestions" class="suggestions"></div>';
-    html += '<div class="active-filters">';
-    allActive.forEach(tag => {
-      const cat = getTagCategory(tag);
-      const icon = cat === 'cuisine' ? '🍽' : '📍';
-      html += `<span class="chip" onclick="removeFilter('${tag}')">${icon} ${esc(tag)} <span class="chip-remove">×</span></span>`;
-    });
-    html += '</div>';
+    html += '<div id="active-filters" class="active-filters"></div>';
     if (allActive.length > 0) {
-      html += `<div class="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
+      html += `<div class="filter-count" id="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
+    } else {
+      html += '<div id="filter-count" style="display:none"></div>';
     }
     html += '</div>';
 
@@ -109,43 +100,85 @@
     }
     app.innerHTML = html;
 
-    // Highlight suggestions after render
-    if (suggestions.length > 0 && _inputValue.length > 0) {
-      highlightSuggestions(suggestions);
+    // Build persistent filter input
+    renderFilterInput();
+    // Render chips
+    renderChips(allActive);
+    // Render count
+    updateFilterCount(filtered.length);
+    // Render suggestions if input has text
+    if (_inputValue.length > 0) {
+      updateSuggestions(allTags);
     }
   }
 
-  function highlightSuggestions(suggestions) {
+  function renderFilterInput() {
+    const wrap = document.getElementById('filter-input-wrap');
+    if (!wrap) return;
+    // Only create if it doesn't exist yet (avoids losing focus)
+    if (!document.getElementById('filter-input')) {
+      wrap.innerHTML = `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" />`;
+      const input = document.getElementById('filter-input');
+      input.addEventListener('input', handleInput);
+      input.addEventListener('keydown', handleKeyDown);
+      input.addEventListener('focus', showDropdown);
+      input.addEventListener('blur', hideDropdown);
+    }
+  }
+
+  function renderChips(allActive) {
+    const container = document.getElementById('active-filters');
+    if (!container) return;
+    container.innerHTML = allActive.map(tag => {
+      const cat = getTagCategory(tag);
+      const icon = cat === 'cuisine' ? '🍽' : '📍';
+      return `<span class="chip" onclick="removeFilter('${esc(tag)}')">${icon} ${esc(tag)} <span class="chip-remove">×</span></span>`;
+    }).join('');
+  }
+
+  function updateFilterCount(count) {
+    const el = document.getElementById('filter-count');
+    if (!el) return;
+    el.textContent = `${count} of ${restaurants.length} restaurants`;
+    el.style.display = activeFilters.cuisine.length > 0 || activeFilters.location.length > 0 ? 'block' : 'none';
+  }
+
+  function updateSuggestions(allTags) {
     const suggestionsEl = document.getElementById('suggestions');
     if (!suggestionsEl) return;
+    const allActive = [...activeFilters.cuisine, ...activeFilters.location];
+    const suggestions = allTags.filter(t =>
+      !allActive.includes(t) && t.toLowerCase().includes(_inputValue.toLowerCase())
+    );
+    if (suggestions.length === 0) {
+      suggestionsEl.innerHTML = '';
+      return;
+    }
     suggestionsEl.innerHTML = suggestions.map((s, i) => {
       const cat = getTagCategory(s);
       const icon = cat === 'cuisine' ? '🍽' : '📍';
       const highlighted = s.replace(
-        new RegExp(`(${_inputValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'),
+        new RegExp(`(${_inputValue.replace(/[.*+?^${}()|[\\]\\]/g, '\\\\$&')})`, 'gi'),
         '<mark>$1</mark>'
       );
       return `<div class="suggestion-item" data-index="${i}" onclick="selectSuggestion('${esc(s)}')" onmouseenter="highlightIndex(${i})">${icon} ${highlighted}</div>`;
     }).join('');
   }
 
-  function handleInput() {
-    const input = document.getElementById('filter-input');
-    if (input) {
-      _inputValue = input.value;
-      renderList();
-    }
+  function handleInput(e) {
+    _inputValue = e.target.value;
+    updateSuggestions(getAllTagValues());
   }
 
   function handleKeyDown(e) {
     if (e.key === 'Enter') {
-      const input = document.getElementById('filter-input');
-      const val = input ? input.value.trim() : '';
+      const val = e.target.value.trim();
       if (val) {
         addFilter(val);
         _inputValue = '';
-        input.value = '';
-        renderList();
+        e.target.value = '';
+        e.target.blur();
+        updateSuggestions(getAllTagValues());
       }
     }
   }
@@ -160,12 +193,16 @@
   function selectSuggestion(tag) {
     addFilter(tag);
     _inputValue = '';
-    document.getElementById('filter-input').value = '';
-    renderList();
+    const input = document.getElementById('filter-input');
+    if (input) {
+      input.value = '';
+      input.blur();
+    }
+    updateSuggestions(getAllTagValues());
   }
 
   function showDropdown() {
-    renderList();
+    updateSuggestions(getAllTagValues());
   }
 
   function hideDropdown() {
