@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Potluck Cafe",
+    "address": "7 Knapp St, Boston, MA 02111",
+    "phone": "(617) 482-1188",
+    "cuisine": "Chinese (Fuzhou)",
+    "rating": 4.2,
+    "review_count": 286,
+    "hours": {
+      "Mon": "11:00 AM - 8:00 PM",
+      "Tue": "11:00 AM - 8:00 PM",
+      "Wed": "11:00 AM - 8:00 PM",
+      "Thu": "11:00 AM - 8:00 PM",
+      "Fri": "11:00 AM - 8:00 PM",
+      "Sat": "11:00 AM - 8:00 PM",
+      "Sun": "11:00 AM - 8:00 PM"
+    },
+    "notes": "Pork fried buns",
+    "maps_url": "https://maps.app.goo.gl/put-your-link-here",
+    "menu": {
+      "Appetizers": [
+        { "name": "Pork Fried Buns (生煎包)", "price": 10.00, "notes": "8 pcs, Pan-fried soup dumplings" },
+        { "name": "Pork Gyoza (猪肉饺子)", "price": 7.95, "notes": "6 pcs, Steamed or Fried" },
+        { "name": "Takoyaki (たこ焼き)", "price": 8.95, "notes": "8 pcs, Grilled Octopus Ball" },
+        { "name": "Edamame (毛豆)", "price": 6.50, "notes": "Steamed, Sea Salted" },
+        { "name": "Vegetable Tempura (蔬菜天妇罗)", "price": 8.55, "notes": "Deep Fried Vegetable in Tempura Batter" },
+        { "name": "Shrimp Tempura (大虾天妇罗)", "price": 9.95, "notes": "Deep Fried Fresh Shrimp" },
+        { "name": "Spring Roll (春卷)", "price": 6.95, "notes": "4 pcs, Vegetables" },
+        { "name": "Pork Katsu (猪排)", "price": 8.95, "notes": "Deep Fried Pork" },
+        { "name": "Fried Chicken Wings", "price": 7.95, "notes": "Crispy, 4 Pcs" },
+        { "name": "Seaweed Salad (海草沙拉)", "price": 6.25, "notes": "Sesame Seeds" },
+        { "name": "Karaage (唐扬)", "price": 8.95, "notes": "Deep Fried Chicken Steak" },
+        { "name": "Scallion Pancake (葱油饼)", "price": 7.95 },
+        { "name": "Crab Rangoon (炸蟹角)", "price": 7.95 }
+      ],
+      "Ramen": [
+        { "name": "Sliced Beef Ramen (牛肉 拉面)", "price": 16.95 },
+        { "name": "Dan Dan Noodles (担担面)", "price": 14.95, "notes": "Spicy, Noddle with minced pork, potatoes, mushrooms, onion, scallion, beansprout" }
+      ],
+      "Donburi (Rice Bowls)": [
+        { "name": "Beef Don (牛肉饭)", "price": 11.95, "notes": "Beef slices with savory sauce, white rice, onions, scallion, sesame" },
+        { "name": "Eel Don (鳗鱼饭)", "price": 13.95, "notes": "Grilled eel with special eel sauce, white rice, broccoli and sesame" },
+        { "name": "Katsu Don (猪排饭)", "price": 10.95, "notes": "Fried pork cutlet, white rice, broccoli, green beans, carrots, corns" },
+        { "name": "Karaage Don (唐扬饭)", "price": 10.95, "notes": "Fried chicken cutlet, white rice, broccoli, green beans, carrots, corns" },
+        { "name": "Fried Egg with Tomato (蕃茄炒鸡蛋饭)", "price": 9.95 }
+      ],
+      "Teriyaki": [
+        { "name": "Chicken Teriyaki (照烧鸡肉)", "price": 9.95, "notes": "Served with cabbage, white rice, green bean" },
+        { "name": "Beef Teriyaki (照烧牛肉)", "price": 11.95, "notes": "Served with cabbage, white rice, green bean" },
+        { "name": "Vegetable Teriyaki (照烧蔬菜)", "price": 9.95, "notes": "Served with cabbage, white rice, green bean" }
+      ],
+      "Classic Dishes": [
+        { "name": "Salted Chicken", "price": 2.50, "notes": "Poached in salt water and fish sauce, chilled, hacked into pieces, dip in white vinegar" },
+        { "name": "Fish Balls", "price": 3.00, "notes": "Stuffed with spicy minced pork" },
+        { "name": "Pan-fried Dumplings", "price": 4.95, "notes": "Pork and Chinese chives, with sweet and garlicky black vinegar sauce" },
+        { "name": "Fried Oysters", "price": 8.95, "notes": "Cornstarch, deep-fried golden, strewn with scallions and diced red bell pepper" },
+        { "name": "Oyster Pancake", "price": 8.95, "notes": "Layered omelet of oysters, egg and gelatinous tapioca, ketchup" },
+        { "name": "Stir-fried Lamb", "price": 8.95, "notes": "Aggressively seasoned with cumin and crushed red pepper, maraschino cherries" },
+        { "name": "Stir-fried Clams and Bok Choy", "price": 13.95, "notes": "With XO sauce" },
+        { "name": "Clam and Loofah Soup", "price": 9.25, "notes": "Chicken broth, slivered ginger, Chinese celery, clams, loofah" },
+        { "name": "Dungeness Crab on Lotus Leaf", "price": 20.95, "notes": "With sticky rice, studded with pork and shiitakes" },
+        { "name": "Lychee Pork", "price": 8.50, "notes": "Sweet and sour, deep-fried crisp, sugary-vinegary glaze" },
+        { "name": "Sweet and Sour Sliced Fish", "price": 10.50, "notes": "Deep-fried crisp, with sliced tomatoes, cucumbers and fried taro" },
+        { "name": "Peapod Tendrils", "price": 12.95, "notes": "Stir-fried with garlic" },
+        { "name": "Crispy Dry Bamboo", "price": 7.95, "notes": "Shredded pork and soy" },
+        { "name": "Fuzhou Fried Rice", "price": 7.95, "notes": "Egg-fried rice with baby shrimp, peas, carrots, pork, minced broccoli" }
+      ],
+      "Sides": [
+        { "name": "White Rice (白饭)", "price": 2.00 }
+      ]
+    }
+  },
+  {
+    "name": "McGonagle's Pub & Restaurant",
+    "address": "367 Neponset Ave, Dorchester, MA 02122",
+    "phone": "(617) 514-4689",
+    "cuisine": "Irish Pub",
+    "rating": 4.5,
+    "review_count": 310,
+    "hours": {
+      "Mon": "11:00 AM - 1:00 AM",
+      "Tue": "11:00 AM - 1:00 AM",
+      "Wed": "11:00 AM - 1:00 AM",
+      "Thu": "11:00 AM - 1:00 AM",
+      "Fri": "11:00 AM - 2:00 AM",
+      "Sat": "10:00 AM - 2:00 AM",
+      "Sun": "10:00 AM - 1:00 AM"
+    },
+    "notes": "Spice Bag!!",
+    "maps_url": "https://maps.app.goo.gl/put-your-link-here",
+    "menu": {
+      "Breakfast": [
+        { "name": "MC G Breakfast Roll", "price": 15.00, "notes": "Hash Browns and Toast" }
+      ],
+      "Appetizers": [
+        { "name": "Pretzels and Beer Cheese", "price": 12.00, "notes": "Fan favorite" },
+        { "name": "Pig in a Blanket", "price": 14.00, "notes": "Sausage rolls — highly praised" }
+      ],
+      "Entrees": [
+        { "name": "Bangers and Mash", "price": 27.00 },
+        { "name": "Fish and Chips", "price": 28.00, "notes": "Crispy batter, fresh haddock, perfect chips" },
+        { "name": "Irish Stew", "price": 27.00 },
+        { "name": "Irish Chicken Curry", "price": 26.00 },
+        { "name": "Chicken Tenders", "price": 16.00 },
+        { "name": "Spice Bag", "price": 22.00, "notes": "Well-liked chicken spice bag" },
+        { "name": "Steak Tips", "notes": "Popular item" },
+        { "name": "Burgers", "price_range": "$15 - $18", "notes": "Various options" }
+      ],
+      "Pizza": [
+        { "name": "Pub Pizzas", "price_range": "$16 - $20", "notes": "Various styles" }
+      ],
+      "Sides": [
+        { "name": "Guinness", "notes": "Reported as one of the best poured pints in the area" }
+      ],
+      "Kids": [
+        { "name": "Kids Menu", "notes": "Available" }
+      ],
+      "Vegetarian": [
+        { "name": "Vegetarian Options", "notes": "Available" }
+      ]
+    }
+  },
+  {
+    "name": "Aatma At Widowmaker",
+    "address": "190 N Beacon St, Brighton, MA 02135",
+    "phone": "(617) 390-0660",
+    "cuisine": "Modern Indian",
+    "rating": 4.7,
+    "review_count": 817,
+    "hours": {
+      "Mon": "Closed",
+      "Tue": "4:00 PM - 9:30 PM",
+      "Wed": "4:00 PM - 9:30 PM",
+      "Thu": "4:00 PM - 9:30 PM",
+      "Fri": "4:00 PM - 9:30 PM",
+      "Sat": "4:00 PM - 9:30 PM",
+      "Sun": "4:00 PM - 8:00 PM"
+    },
+    "notes": "",
+    "maps_url": "https://maps.app.goo.gl/put-your-link-here",
+    "menu": {
+      "Signature": [
+        { "name": "The Aatma Burger", "price": 20.00, "notes": "Two masala-spiced halal beef patties smashed, dripping in Aatma sauce, achari onions, Amul cheese. Comes with Chaat-er Tots. Gluten free upon request +$1" },
+        { "name": "Better Butter Chicken", "price": 19.00, "notes": "Halal chicken, Amul butter, cashew and tomato gravy" },
+        { "name": "Clay Pot Lamb Belly Biryani", "price": 24.00, "notes": "Halal lamb belly, aged basmati rice, fried onions, slow cooked in clay pot" },
+        { "name": "Indira's Dal", "price": 13.00, "notes": "Slow-cooked lentil stew with onions, green chiles, ajwain (herb similar to oregano). Named after one of the chef's mentors" }
+      ],
+      "Street Food": [
+        { "name": "Fried Idli Chaat", "price": 15.00, "notes": "Idlis (steamed rice cakes) fried, coated in hand-ground dried chiles, drizzled with tamarind-ginger chutney, served on creamy yogurt with fresh cilantro" },
+        { "name": "Widowmaker Bhajji's", "notes": "Indian fritters" }
+      ],
+      "Kebabs": [
+        { "name": "Lamb Seekh Kebab" }
+      ],
+      "Dosa": [
+        { "name": "Benne Dosa", "notes": "Fermented rice and lentil batter, blistered in butter and stuffed with spiced potato" }
+      ],
+      "Sides": [
+        { "name": "Naan", "price_range": "$4 - $6" },
+        { "name": "Rice", "price_range": "$5 - $8" }
+      ],
+      "Beverages": [
+        { "name": "Masala Chai", "price": 6.00, "notes": "House-made, with thickened oat milk and toasted spices" },
+        { "name": "Mango Lassi", "price": 9.00, "notes": "With rose syrup — creamy, tart, and floral" }
+      ],
+      "Notes": "All meat is halal. Counter-service. No reservations. Walk-ins always welcome."
+    }
+  }
+]
