@@ -294,3 +294,112 @@ main {
   color: var(--text-secondary);
   font-size: 1rem;
 }
+
+/* No results */
+.no-results {
+  text-align: center;
+  padding: 30px;
+  color: var(--text-secondary);
+}
+
+/* Filter section */
+.filter-section {
+  margin-bottom: 12px;
+}
+
+.filter-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.filter-group {
+  margin-bottom: 8px;
+}
+
+.filter-group-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.filter-checkbox {
+  font-size: 0.82rem;
+  display: block;
+  padding: 2px 0;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.filter-checkbox input {
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.clear-filters {
+  background: none;
+  border: 1px solid var(--border);
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.clear-filters:hover {
+  background: var(--border);
+}
+
+.filter-count {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 1px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.tag-cuisine {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.tag-location {
+  background: #e8f4f8;
+  color: #0c5460;
+}
+
+.detail-tags {
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.detail-tags .label {
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.detail-tags .tag {
+  margin-right: 4px;
+}

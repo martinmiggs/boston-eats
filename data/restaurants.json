@@ -17,6 +17,10 @@
     },
     "notes": "Pork fried buns",
     "maps_url": "https://www.google.com/maps/?cid=9104509255542460442",
+    "tags": {
+      "cuisine": ["Chinese", "Fuzhou", "Dumplings", "Ramen"],
+      "location": ["Downtown", "Chinatown"]
+    },
     "menu": {
       "Appetizers": [
         { "name": "Pork Fried Buns (生煎包)", "price": 10.00, "notes": "8 pcs, Pan-fried soup dumplings" },
@@ -88,6 +92,10 @@
     },
     "notes": "Spice Bag!!",
     "maps_url": "https://www.google.com/maps/?cid=2776405075296497070",
+    "tags": {
+      "cuisine": ["Irish", "Pub"],
+      "location": ["Dorchester", "Neponset"]
+    },
     "menu": {
       "Breakfast": [
         { "name": "MC G Breakfast Roll", "price": 15.00, "notes": "Hash Browns and Toast" }
@@ -138,6 +146,10 @@
     },
     "notes": "",
     "maps_url": "https://www.google.com/maps/?cid=5378652117383452278",
+    "tags": {
+      "cuisine": ["Indian", "Modern Indian"],
+      "location": ["Brighton"]
+    },
     "menu": {
       "Signature": [
         { "name": "The Aatma Burger", "price": 20.00, "notes": "Two masala-spiced halal beef patties smashed, dripping in Aatma sauce, achari onions, Amul cheese. Comes with Chaat-er Tots. Gluten free upon request +$1" },
