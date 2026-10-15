@@ -16,7 +16,7 @@
       "Sun": "11:00 AM - 8:00 PM"
     },
     "notes": "Pork fried buns",
-    "maps_url": "https://www.google.com/maps/place/Potluck+Cafe/@42.351183,-71.062283,17z",
+    "maps_url": "https://www.google.com/maps/?cid=9104509255542460442",
     "menu": {
       "Appetizers": [
         { "name": "Pork Fried Buns (生煎包)", "price": 10.00, "notes": "8 pcs, Pan-fried soup dumplings" },
@@ -87,7 +87,7 @@
       "Sun": "10:00 AM - 1:00 AM"
     },
     "notes": "Spice Bag!!",
-    "maps_url": "https://www.google.com/maps/place/McGonagle%27s+Pub+Restaurant/@42.286571,-71.045148,17z",
+    "maps_url": "https://www.google.com/maps/?cid=2776405075296497070",
     "menu": {
       "Breakfast": [
         { "name": "MC G Breakfast Roll", "price": 15.00, "notes": "Hash Browns and Toast" }
@@ -137,7 +137,7 @@
       "Sun": "4:00 PM - 8:00 PM"
     },
     "notes": "",
-    "maps_url": "https://www.google.com/maps/place/Aatma+At+Widowmaker/@42.3557045,-71.147939,17z",
+    "maps_url": "https://www.google.com/maps/?cid=5378652117383452278",
     "menu": {
       "Signature": [
         { "name": "The Aatma Burger", "price": 20.00, "notes": "Two masala-spiced halal beef patties smashed, dripping in Aatma sauce, achari onions, Amul cheese. Comes with Chaat-er Tots. Gluten free upon request +$1" },
