@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Restaurant List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --ink: #122029;
+  --ink-2: #1B3039;
+  --ink-3: #254049;
+  --paper: #E8EDE9;
+  --paper-dim: #9FB2B4;
+  --sand: #C9A227;
+  --red: #DA291C;
+  --orange: #ED8B00;
+  --green: #3E9B57;
+  --blue: #3F7BD6;
+  --silver: #8E9BA1;
+  --radius: 10px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html,body { margin: 0; padding: 0; }
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 18px 16px 120px; }
+#app { max-width: 720px; margin: 0 auto; padding: 18px 16px 120px; }
+
+/* ---------- header ---------- */
+header { max-width: 720px; margin: 0 auto; padding: 24px 16px 8px; }
+header h1 {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin: 0 0 4px;
+  color: var(--paper);
+}
+header p.sub, #subtitle {
+  margin: 0 0 18px;
+  color: var(--paper-dim);
+  font-size: 13.5px;
+  max-width: 52ch;
+}
+
+/* ---------- addbox ---------- */
+.addbox {
+  background: var(--ink-2);
+  border: 1px solid var(--ink-3);
+  border-radius: var(--radius);
+  padding: 12px;
+  margin-bottom: 18px;
+}
+.addbox input[type=text] {
+  width: 100%;
+  background: var(--ink);
+  border: 1px solid var(--ink-3);
+  color: var(--paper);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 15px;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+.addbox input[type=text]::placeholder { color: #6E8489; }
+.addbox input[type=text]:focus {
+  outline: 2px solid var(--sand);
+  outline-offset: 2px;
+  border-color: var(--sand);
+}
+
+/* ---------- facets / filter section ---------- */
+.facet { margin-top: 16px; }
+.facet h2 {
+  font-size: 12.5px;
+  font-weight: 600;
+  margin: 0 0 7px;
+  color: var(--paper-dim);
+  letter-spacing: 0.01em;
+}
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip {
+  border: 1px solid var(--ink-3);
+  background: transparent;
+  color: var(--paper-dim);
+  border-radius: 999px;
+  padding: 5px 11px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.chip .dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+.chip[aria-pressed="true"] {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--paper);
+  font-weight: 600;
+}
+
+/* ---------- filter input / suggestions ---------- */
+.filter-section { margin-bottom: 12px; position: relative; }
+.filter-input {
+  width: 100%;
+  background: var(--ink-2);
+  border: 1px solid var(--ink-3);
+  color: var(--paper);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+}
+.filter-input:focus { outline: 2px solid var(--sand); outline-offset: 2px; border-color: var(--sand); }
+.filter-input::placeholder { color: #6E8489; }
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background: var(--ink-2);
+  border: 1px solid var(--ink-3);
+  border-radius: 12px;
+  margin-top: 4px;
+  z-index: 50;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.suggestion-item {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--paper-dim);
+  border-radius: 8px;
+  margin-bottom: 2px;
+  transition: background 0.1s ease;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.suggestion-item:hover,
+.suggestion-item.active { background: var(--ink-3); color: var(--paper); }
+.suggestion-item mark {
+  background: var(--sand);
+  color: var(--ink);
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+.active-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.chip-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(232,237,233,0.15);
+  font-size: 0.75rem;
+  line-height: 1;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.chip-remove:hover { background: var(--sand); color: var(--ink); }
+.filter-count { font-size: 13px; color: var(--paper-dim); margin-bottom: 8px; font-weight: 600; }
+
+/* ---------- toolbar ---------- */
+.toolbar { display: flex; gap: 8px; align-items: center; margin-top: 16px; flex-wrap: wrap; }
+.toolbar input[type=search] {
+  flex: 1;
+  min-width: 150px;
+  background: var(--ink-2);
+  border: 1px solid var(--ink-3);
+  color: var(--paper);
+  padding: 8px 11px;
+  border-radius: 8px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+}
+
+/* ---------- list / timeline ---------- */
+.list { margin-top: 14px; position: relative; padding-left: 22px; }
+.list:before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 14px;
+  bottom: 14px;
+  width: 2px;
+  background: var(--ink-3);
+  border-radius: 2px;
+}
+.stop { position: relative; padding: 12px 0; border-bottom: 1px solid var(--ink-2); cursor: pointer; }
+.stop:last-child { border-bottom: none; }
+.stop .node {
+  position: absolute;
+  left: -22px;
+  top: 19px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--ink);
+  border: 3px solid var(--silver);
+}
+.stop.picked { background: rgba(201,162,39,0.09); border-radius: 8px; padding-left: 10px; padding-right: 10px; margin-left: -10px; }
+.stop .head { display: flex; align-items: baseline; gap: 8px; }
+.stop h3 {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 19px;
+  margin: 0;
+  line-height: 1.25;
+  flex: 1;
+}
+.stop .price { color: var(--paper-dim); font-size: 13px; }
+.meta { margin-top: 3px; font-size: 13px; color: var(--paper-dim); }
+
+/* ---------- restaurant card (inline list) ---------- */
+.restaurant-card {
+  background: var(--ink-2);
+  border: 1px solid var(--ink-3);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.restaurant-card:active { transform: scale(0.98); }
+.restaurant-card .name {
+  font-family: "Fraunces", Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 4px;
+}
+.restaurant-card .cuisine {
+  font-size: 13px;
+  color: var(--sand);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.restaurant-card .address { font-size: 13px; color: var(--paper-dim); margin-bottom: 8px; }
+.restaurant-card .meta { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+
+.rating { background: rgba(201,162,39,0.15); color: var(--sand); font-size: 13px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+.review-count { font-size: 13px; color: var(--paper-dim); }
+.phone { font-size: 13px; color: var(--paper-dim); }
+.user-note { background: rgba(62,155,87,0.15); color: var(--green); font-size: 13px; font-weight: 600; padding: 2px 8px; border-radius: 999px; }
+
+/* ---------- tags ---------- */
+.tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 7px; }
+.tag {
+  font-size: 11.5px;
+  padding: 2.5px 8px;
+  border-radius: 5px;
+  background: var(--ink-2);
+  color: var(--paper-dim);
+}
+.tag-cuisine { background: rgba(201,162,39,0.15); color: var(--sand); }
+.tag-location { background: rgba(63,123,214,0.15); color: var(--blue); }
+.detail-tags { margin-bottom: 12px; padding: 8px 12px; background: var(--ink-2); border-radius: var(--radius); font-size: 13px; }
+.detail-tags .label { font-weight: 700; margin-right: 6px; }
+.detail-tags .tag { margin-right: 4px; }
+
+/* ---------- detail view ---------- */
+.detail-view {
+  background: var(--ink-2);
+  border: 1px solid var(--ink-3);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.detail-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+.detail-header h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 19px; flex: 1; }
+.back-btn {
+  font-family: "IBM Plex Sans", sans-serif;
+  background: transparent;
+  border: 1px solid var(--ink-3);
+  color: var(--paper);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.back-btn:active { opacity: 0.8; }
+.detail-info { margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--ink-3); }
+.detail-info p { font-size: 14px; margin-bottom: 6px; }
+.detail-info .label { font-weight: 600; color: var(--paper); }
+.detail-info .value { color: var(--paper-dim); }
+
+.hours-grid { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: 13px; margin-bottom: 12px; }
+.hours-grid .day { font-weight: 600; }
+.hours-grid .time { color: var(--paper-dim); }
+.hours-grid .closed { color: var(--red); font-weight: 600; }
+
+.user-note-detail {
+  background: var(--ink-2);
+  border-left: 3px solid var(--green);
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #CBD8D3;
+}
+.map-link {
+  display: block;
+  background: var(--sand);
+  color: #22200D;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* ---------- menu ---------- */
+.menu-section { margin-bottom: 20px; }
+.menu-section-title {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--paper);
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--ink-3);
+  margin-bottom: 10px;
+}
+.menu-item { padding: 10px 0; border-bottom: 1px solid var(--ink-3); }
+.menu-item:last-child { border-bottom: none; }
+.menu-item-header { display: flex; justify-content: space-between; align-items: baseline; }
+.menu-item-name { font-weight: 600; font-size: 14px; flex: 1; }
+.menu-item-price { font-weight: 700; font-size: 14px; color: var(--sand); white-space: nowrap; margin-left: 12px; }
+.menu-item-notes { font-size: 12.5px; color: var(--paper-dim); margin-top: 3px; font-style: italic; }
+.restaurant-notes {
+  background: var(--ink-2);
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  color: #CBD8D3;
+  margin-bottom: 16px;
+}
+
+/* ---------- no results / empty ---------- */
+.no-results, .empty {
+  border: 1px dashed var(--ink-3);
+  border-radius: var(--radius);
+  padding: 22px;
+  text-align: center;
+  color: var(--paper-dim);
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+/* ---------- pick bar ---------- */
+.pickbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, var(--ink) 62%, rgba(18,32,41,0));
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+.pickbar button {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 26px;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--paper);
+  border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Where are we eating?</h1>
+    <p id="subtitle">Boston restaurants with menus, notes, and what to order.</p>
+  </header>
+
+  <main id="app"></main>
+
+  <script>
+(function () {
+  const app = document.getElementById('app');
+  let restaurants = [];
+  let activeFilters = { cuisine: [], location: [] };
+  let _inputValue = '';
+
+  // Load data
+  // Inline data (self-contained)
+  restaurants = [
+  {
+    "name": "Potluck Cafe",
+    "address": "7 Knapp St, Boston, MA 02111",
+    "phone": "(617) 482-1188",
+    "cuisine": "Chinese (Fuzhou)",
+    "rating": 4.2,
+    "review_count": 286,
+    "hours": {
+      "Mon": "11:00 AM - 8:00 PM",
+      "Tue": "11:00 AM - 8:00 PM",
+      "Wed": "11:00 AM - 8:00 PM",
+      "Thu": "11:00 AM - 8:00 PM",
+      "Fri": "11:00 AM - 8:00 PM",
+      "Sat": "11:00 AM - 8:00 PM",
+      "Sun": "11:00 AM - 8:00 PM"
+    },
+    "notes": "Pork fried buns",
+    "maps_url": "https://www.google.com/maps/?cid=9104509255542460442",
+    "tags": {
+      "cuisine": ["Chinese", "Fuzhou", "Dumplings", "Ramen"],
+      "location": ["Downtown", "Chinatown"]
+    },
+    "menu": {
+      "Appetizers": [
+        { "name": "Pork Fried Buns (生煎包)", "price": 10.00, "notes": "8 pcs, Pan-fried soup dumplings" },
+        { "name": "Pork Gyoza (猪肉饺子)", "price": 7.95, "notes": "6 pcs, Steamed or Fried" },
+        { "name": "Takoyaki (たこ焼き)", "price": 8.95, "notes": "8 pcs, Grilled Octopus Ball" },
+        { "name": "Edamame (毛豆)", "price": 6.50, "notes": "Steamed, Sea Salted" },
+        { "name": "Vegetable Tempura (蔬菜天妇罗)", "price": 8.55, "notes": "Deep Fried Vegetable in Tempura Batter" },
+        { "name": "Shrimp Tempura (大虾天妇罗)", "price": 9.95, "notes": "Deep Fried Fresh Shrimp" },
+        { "name": "Spring Roll (春卷)", "price": 6.95, "notes": "4 pcs, Vegetables" },
+        { "name": "Pork Katsu (猪排)", "price": 8.95, "notes": "Deep Fried Pork" },
+        { "name": "Fried Chicken Wings", "price": 7.95, "notes": "Crispy, 4 Pcs" },
+        { "name": "Seaweed Salad (海草沙拉)", "price": 6.25, "notes": "Sesame Seeds" },
+        { "name": "Karaage (唐扬)", "price": 8.95, "notes": "Deep Fried Chicken Steak" },
+        { "name": "Scallion Pancake (葱油饼)", "price": 7.95 },
+        { "name": "Crab Rangoon (炸蟹角)", "price": 7.95 }
+      ],
+      "Ramen": [
+        { "name": "Sliced Beef Ramen (牛肉 拉面)", "price": 16.95 },
+        { "name": "Dan Dan Noodles (担担面)", "price": 14.95, "notes": "Spicy, Noddle with minced pork, potatoes, mushrooms, onion, scallion, beansprout" }
+      ],
+      "Donburi (Rice Bowls)": [
+        { "name": "Beef Don (牛肉饭)", "price": 11.95, "notes": "Beef slices with savory sauce, white rice, onions, scallion, sesame" },
+        { "name": "Eel Don (鳗鱼饭)", "price": 13.95, "notes": "Grilled eel with special eel sauce, white rice, broccoli and sesame" },
+        { "name": "Katsu Don (猪排饭)", "price": 10.95, "notes": "Fried pork cutlet, white rice, broccoli, green beans, carrots, corns" },
+        { "name": "Karaage Don (唐扬饭)", "price": 10.95, "notes": "Fried chicken cutlet, white rice, broccoli, green beans, carrots, corns" },
+        { "name": "Fried Egg with Tomato (蕃茄炒鸡蛋饭)", "price": 9.95 }
+      ],
+      "Teriyaki": [
+        { "name": "Chicken Teriyaki (照烧鸡肉)", "price": 9.95, "notes": "Served with cabbage, white rice, green bean" },
+        { "name": "Beef Teriyaki (照烧牛肉)", "price": 11.95, "notes": "Served with cabbage, white rice, green bean" },
+        { "name": "Vegetable Teriyaki (照烧蔬菜)", "price": 9.95, "notes": "Served with cabbage, white rice, green bean" }
+      ],
+      "Classic Dishes": [
+        { "name": "Salted Chicken", "price": 2.50, "notes": "Poached in salt water and fish sauce, chilled, hacked into pieces, dip in white vinegar" },
+        { "name": "Fish Balls", "price": 3.00, "notes": "Stuffed with spicy minced pork" },
+        { "name": "Pan-fried Dumplings", "price": 4.95, "notes": "Pork and Chinese chives, with sweet and garlicky black vinegar sauce" },
+        { "name": "Fried Oysters", "price": 8.95, "notes": "Cornstarch, deep-fried golden, strewn with scallions and diced red bell pepper" },
+        { "name": "Oyster Pancake", "price": 8.95, "notes": "Layered omelet of oysters, egg and gelatinous tapioca, ketchup" },
+        { "name": "Stir-fried Lamb", "price": 8.95, "notes": "Aggressively seasoned with cumin and crushed red pepper, maraschino cherries" },
+        { "name": "Stir-fried Clams and Bok Choy", "price": 13.95, "notes": "With XO sauce" },
+        { "name": "Clam and Loofah Soup", "price": 9.25, "notes": "Chicken broth, slivered ginger, Chinese celery, clams, loofah" },
+        { "name": "Dungeness Crab on Lotus Leaf", "price": 20.95, "notes": "With sticky rice, studded with pork and shiitakes" },
+        { "name": "Lychee Pork", "price": 8.50, "notes": "Sweet and sour, deep-fried crisp, sugary-vinegary glaze" },
+        { "name": "Sweet and Sour Sliced Fish", "price": 10.50, "notes": "Deep-fried crisp, with sliced tomatoes, cucumbers and fried taro" },
+        { "name": "Peapod Tendrils", "price": 12.95, "notes": "Stir-fried with garlic" },
+        { "name": "Crispy Dry Bamboo", "price": 7.95, "notes": "Shredded pork and soy" },
+        { "name": "Fuzhou Fried Rice", "price": 7.95, "notes": "Egg-fried rice with baby shrimp, peas, carrots, pork, minced broccoli" }
+      ],
+      "Sides": [
+        { "name": "White Rice (白饭)", "price": 2.00 }
+      ]
+    }
+  },
+  {
+    "name": "McGonagle's Pub & Restaurant",
+    "address": "367 Neponset Ave, Dorchester, MA 02122",
+    "phone": "(617) 514-4689",
+    "cuisine": "Irish Pub",
+    "rating": 4.5,
+    "review_count": 310,
+    "hours": {
+      "Mon": "11:00 AM - 1:00 AM",
+      "Tue": "11:00 AM - 1:00 AM",
+      "Wed": "11:00 AM - 1:00 AM",
+      "Thu": "11:00 AM - 1:00 AM",
+      "Fri": "11:00 AM - 2:00 AM",
+      "Sat": "10:00 AM - 2:00 AM",
+      "Sun": "10:00 AM - 1:00 AM"
+    },
+    "notes": "Spice Bag!!",
+    "maps_url": "https://www.google.com/maps/?cid=2776405075296497070",
+    "tags": {
+      "cuisine": ["Irish", "Pub"],
+      "location": ["Dorchester", "Neponset"]
+    },
+    "menu": {
+      "Breakfast": [
+        { "name": "MC G Breakfast Roll", "price": 15.00, "notes": "Hash Browns and Toast" }
+      ],
+      "Appetizers": [
+        { "name": "Pretzels and Beer Cheese", "price": 12.00, "notes": "Fan favorite" },
+        { "name": "Pig in a Blanket", "price": 14.00, "notes": "Sausage rolls — highly praised" }
+      ],
+      "Entrees": [
+        { "name": "Bangers and Mash", "price": 27.00 },
+        { "name": "Fish and Chips", "price": 28.00, "notes": "Crispy batter, fresh haddock, perfect chips" },
+        { "name": "Irish Stew", "price": 27.00 },
+        { "name": "Irish Chicken Curry", "price": 26.00 },
+        { "name": "Chicken Tenders", "price": 16.00 },
+        { "name": "Spice Bag", "price": 22.00, "notes": "Well-liked chicken spice bag" },
+        { "name": "Steak Tips", "notes": "Popular item" },
+        { "name": "Burgers", "price_range": "$15 - $18", "notes": "Various options" }
+      ],
+      "Pizza": [
+        { "name": "Pub Pizzas", "price_range": "$16 - $20", "notes": "Various styles" }
+      ],
+      "Sides": [
+        { "name": "Guinness", "notes": "Reported as one of the best poured pints in the area" }
+      ],
+      "Kids": [
+        { "name": "Kids Menu", "notes": "Available" }
+      ],
+      "Vegetarian": [
+        { "name": "Vegetarian Options", "notes": "Available" }
+      ]
+    }
+  },
+  {
+    "name": "Aatma At Widowmaker",
+    "address": "190 N Beacon St, Brighton, MA 02135",
+    "phone": "(617) 390-0660",
+    "cuisine": "Modern Indian",
+    "rating": 4.7,
+    "review_count": 817,
+    "hours": {
+      "Mon": "Closed",
+      "Tue": "4:00 PM - 9:30 PM",
+      "Wed": "4:00 PM - 9:30 PM",
+      "Thu": "4:00 PM - 9:30 PM",
+      "Fri": "4:00 PM - 9:30 PM",
+      "Sat": "4:00 PM - 9:30 PM",
+      "Sun": "4:00 PM - 8:00 PM"
+    },
+    "notes": "",
+    "maps_url": "https://www.google.com/maps/?cid=5378652117383452278",
+    "tags": {
+      "cuisine": ["Indian", "Modern Indian"],
+      "location": ["Brighton"]
+    },
+    "menu": {
+      "Signature": [
+        { "name": "The Aatma Burger", "price": 20.00, "notes": "Two masala-spiced halal beef patties smashed, dripping in Aatma sauce, achari onions, Amul cheese. Comes with Chaat-er Tots. Gluten free upon request +$1" },
+        { "name": "Better Butter Chicken", "price": 19.00, "notes": "Halal chicken, Amul butter, cashew and tomato gravy" },
+        { "name": "Clay Pot Lamb Belly Biryani", "price": 24.00, "notes": "Halal lamb belly, aged basmati rice, fried onions, slow cooked in clay pot" },
+        { "name": "Indira's Dal", "price": 13.00, "notes": "Slow-cooked lentil stew with onions, green chiles, ajwain (herb similar to oregano). Named after one of the chef's mentors" }
+      ],
+      "Street Food": [
+        { "name": "Fried Idli Chaat", "price": 15.00, "notes": "Idlis (steamed rice cakes) fried, coated in hand-ground dried chiles, drizzled with tamarind-ginger chutney, served on creamy yogurt with fresh cilantro" },
+        { "name": "Widowmaker Bhajji's", "notes": "Indian fritters" }
+      ],
+      "Kebabs": [
+        { "name": "Lamb Seekh Kebab" }
+      ],
+      "Dosa": [
+        { "name": "Benne Dosa", "notes": "Fermented rice and lentil batter, blistered in butter and stuffed with spiced potato" }
+      ],
+      "Sides": [
+        { "name": "Naan", "price_range": "$4 - $6" },
+        { "name": "Rice", "price_range": "$5 - $8" }
+      ],
+      "Beverages": [
+        { "name": "Masala Chai", "price": 6.00, "notes": "House-made, with thickened oat milk and toasted spices" },
+        { "name": "Mango Lassi", "price": 9.00, "notes": "With rose syrup — creamy, tart, and floral" }
+      ],
+      "Notes": "All meat is halal. Counter-service. No reservations. Walk-ins always welcome."
+    }
+  }
+]
+;
+
+  function loadData() {
+    renderList();
+  }
+
+  // Get all unique tag values
+  function getAllTagValues() {
+    const allTags = new Set();
+    restaurants.forEach(r => {
+      (r.tags?.cuisine || []).forEach(c => allTags.add(c));
+      (r.tags?.location || []).forEach(l => allTags.add(l));
+    });
+    return Array.from(allTags).sort();
+  }
+
+  // Determine if a tag is cuisine or location
+  function getTagCategory(tag) {
+    const cuisines = new Set();
+    const locations = new Set();
+    restaurants.forEach(r => {
+      (r.tags?.cuisine || []).forEach(c => cuisines.add(c));
+      (r.tags?.location || []).forEach(l => locations.add(l));
+    });
+    if (cuisines.has(tag)) return 'cuisine';
+    if (locations.has(tag)) return 'location';
+    return 'unknown';
+  }
+
+  // Filter restaurants based on active filters
+  function filterRestaurants() {
+    if (activeFilters.cuisine.length === 0 && activeFilters.location.length === 0) {
+      return restaurants;
+    }
+    return restaurants.filter(r => {
+      const rTags = r.tags || {};
+      const rCuisine = rTags.cuisine || [];
+      const rLocation = rTags.location || [];
+      const cuisineMatch = activeFilters.cuisine.length === 0 || activeFilters.cuisine.some(f => rCuisine.includes(f));
+      const locationMatch = activeFilters.location.length === 0 || activeFilters.location.some(f => rLocation.includes(f));
+      return cuisineMatch && locationMatch;
+    });
+  }
+
+  // Render the filter input + chips + cards (initial mount)
+  function renderList() {
+    const allTags = getAllTagValues();
+    const filtered = filterRestaurants();
+    const allActive = [...activeFilters.cuisine, ...activeFilters.location];
+    let html = '';
+
+    // Filter input (recreated each time with inline handlers)
+    html += '<div class="filter-section">';
+    html += `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" oninput="handleInput(event)" onkeydown="handleKeyDown(event)" onfocus="showDropdown()" onblur="hideDropdown()" />`;
+    html += '<div id="suggestions" class="suggestions"></div>';
+    html += '<div id="active-filters" class="active-filters"></div>';
+    html += `<div class="filter-count" id="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
+    html += '</div>';
+
+    // Restaurant cards as timeline stops
+    if (filtered.length === 0) {
+      html += '<div class="empty">No restaurants match your filters.</div>';
+    } else {
+      html += '<div class="list">';
+      filtered.forEach((r, idx) => {
+        const origIdx = restaurants.indexOf(r);
+        const cuisineTags = (r.tags?.cuisine || []).map(t => `<span class="tag tag-cuisine">${esc(t)}</span>`).join('');
+        const locationTags = (r.tags?.location || []).map(t => `<span class="tag tag-location">${esc(t)}</span>`).join('');
+        html += `<div class="stop" onclick="showDetail(${origIdx})">`;
+        html += `<span class="node"></span>`;
+        html += `<div class="head"><h3>${esc(r.name)}</h3><span class="price">★ ${r.rating}</span></div>`;
+        html += `<div class="meta">${esc(r.cuisine)} · ${esc(r.address)}</div>`;
+        html += `<div class="tags">${cuisineTags}${locationTags}<span class="review-count">(${r.review_count} reviews)</span>${r.notes ? `<span class="user-note">📝 ${esc(r.notes)}</span>` : ''}</div>`;
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+    app.innerHTML = html;
+
+    // Render chips
+    renderChips(allActive);
+    // Render count
+    updateFilterCount(filtered.length);
+    // Render suggestions if input has text
+    if (_inputValue.length > 0) {
+      updateSuggestions(allTags);
+    }
+  }
+
+  function renderChips(allActive) {
+    const container = document.getElementById('active-filters');
+    if (!container) return;
+    container.innerHTML = allActive.map(tag => {
+      const cat = getTagCategory(tag);
+      const color = cat === 'cuisine' ? 'var(--sand)' : 'var(--blue)';
+      return `<span class="chip" onclick="removeFilter('${esc(tag)}')" aria-pressed="true" style="color:${color}">${esc(tag)} <span class="chip-remove">×</span></span>`;
+    }).join('');
+  }
+
+  function updateFilterCount(count) {
+    const el = document.getElementById('filter-count');
+    if (!el) return;
+    el.textContent = `${count} of ${restaurants.length} restaurants`;
+    el.style.display = activeFilters.cuisine.length > 0 || activeFilters.location.length > 0 ? 'block' : 'none';
+  }
+
+  function updateSuggestions(allTags) {
+    const suggestionsEl = document.getElementById('suggestions');
+    if (!suggestionsEl) return;
+    if (_inputValue.length < 2) {
+      suggestionsEl.innerHTML = '';
+      return;
+    }
+    const allActive = [...activeFilters.cuisine, ...activeFilters.location];
+    const suggestions = allTags.filter(t =>
+      !allActive.includes(t) && t.toLowerCase().includes(_inputValue.toLowerCase())
+    );
+    if (suggestions.length === 0) {
+      suggestionsEl.innerHTML = '';
+      return;
+    }
+    suggestionsEl.innerHTML = suggestions.map((s, i) => {
+      const cat = getTagCategory(s);
+      const icon = cat === 'cuisine' ? '🍽' : '📍';
+      const highlighted = s.replace(
+        new RegExp(`(${_inputValue.replace(/[.*+?^${}()|[\\]\\]/g, '\\\\$&')})`, 'gi'),
+        '<mark>$1</mark>'
+      );
+      return `<div class="suggestion-item" data-index="${i}" onclick="selectSuggestion('${esc(s)}')" onmouseenter="highlightIndex(${i})">${icon} ${highlighted}</div>`;
+    }).join('');
+  }
+
+  function handleInput(e) {
+    _inputValue = e.target.value;
+    updateSuggestions(getAllTagValues());
+  }
+
+  function handleKeyDown(e) {
+    if (e.key === 'Enter') {
+      const val = e.target.value.trim();
+      if (val) {
+        const allTags = getAllTagValues();
+        const allActive = [...activeFilters.cuisine, ...activeFilters.location];
+        // Auto-select matching suggestion (exact or partial)
+        const match = allTags.find(t =>
+          !allActive.includes(t) && t.toLowerCase().includes(val.toLowerCase())
+        );
+        if (match) {
+          addFilter(match);
+        } else {
+          addFilter(val);
+        }
+        _inputValue = '';
+        e.target.value = '';
+        e.target.blur();
+        updateSuggestions(getAllTagValues());
+      }
+    }
+  }
+
+  function highlightIndex(idx) {
+    const items = document.querySelectorAll('.suggestion-item');
+    items.forEach((item, i) => {
+      item.classList.toggle('active', i === idx);
+    });
+  }
+
+  function selectSuggestion(tag) {
+    addFilter(tag);
+    _inputValue = '';
+    const input = document.getElementById('filter-input');
+    if (input) {
+      input.value = '';
+      input.blur();
+    }
+    updateSuggestions(getAllTagValues());
+  }
+
+  function showDropdown() {
+    updateSuggestions(getAllTagValues());
+  }
+
+  function hideDropdown() {
+    setTimeout(() => {
+      const sg = document.getElementById('suggestions');
+      if (sg) sg.innerHTML = '';
+    }, 200);
+  }
+
+  // Expose filter functions globally
+  window.addFilter = function (tag) {
+    const cat = getTagCategory(tag);
+    if (cat === 'cuisine') {
+      if (!activeFilters.cuisine.includes(tag)) activeFilters.cuisine.push(tag);
+    } else if (cat === 'location') {
+      if (!activeFilters.location.includes(tag)) activeFilters.location.push(tag);
+    }
+    renderList();
+  };
+
+  window.removeFilter = function (tag) {
+    const idx = activeFilters.cuisine.indexOf(tag);
+    if (idx >= 0) { activeFilters.cuisine.splice(idx, 1); }
+    const idx2 = activeFilters.location.indexOf(tag);
+    if (idx2 >= 0) { activeFilters.location.splice(idx2, 1); }
+    renderList();
+  };
+
+  window.clearFilters = function () {
+    activeFilters = { cuisine: [], location: [] };
+    _inputValue = '';
+    renderList();
+  };
+
+  // Render a single restaurant's detail view
+  function showDetail(idx) {
+    const r = restaurants[idx];
+    let html = '<div class="detail-view">';
+
+    // Header
+    html += `
+      <div class="detail-header">
+        <h2>${esc(r.name)}</h2>
+        <button class="back-btn" onclick="renderList()">← Back</button>
+      </div>
+    `;
+
+    // Info
+    html += `
+      <div class="detail-info">
+        <p><span class="label">Address:</span> <span class="value">${esc(r.address)}</span></p>
+        <p><span class="label">Phone:</span> <span class="value"><a href="tel:${r.phone.replace(/\s/g, '')}">${esc(r.phone)}</a></span></p>
+        <p><span class="label">Rating:</span> <span class="value">★ ${r.rating} (${r.review_count} reviews)</span></p>
+        <p><span class="label">Cuisine:</span> <span class="value">${esc(r.cuisine)}</span></p>
+      </div>
+    `;
+
+    // Tags
+    if (r.tags) {
+      html += '<div class="detail-tags">';
+      if (r.tags.cuisine && r.tags.cuisine.length > 0) {
+        html += '<span class="label">Tags:</span> ';
+        html += r.tags.cuisine.map(t => `<span class="tag tag-cuisine">${esc(t)}</span>`).join(' ');
+        if (r.tags.location && r.tags.location.length > 0) {
+          r.tags.location.forEach(t => {
+            html += `<span class="tag tag-location">${esc(t)}</span>`;
+          });
+        }
+      }
+      html += '</div>';
+    }
+
+    // Hours
+    html += '<div class="hours-grid">';
+    const dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    dayLabels.forEach(day => {
+      const hours = r.hours[day];
+      html += `<span class="day">${day}</span><span class="value ${hours === 'Closed' ? 'closed' : ''}">${esc(hours)}</span>`;
+    });
+    html += '</div>';
+
+    // User notes
+    if (r.notes) {
+      html += `<div class="user-note-detail">📝 ${esc(r.notes)}</div>`;
+    }
+
+    // Map link
+    html += `<a href="${r.maps_url}" class="map-link" target="_blank" rel="noopener">📍 Open in Google Maps</a>`;
+
+    // Menu
+    const menu = r.menu;
+    for (const [section, items] of Object.entries(menu)) {
+      if (section === 'Notes') {
+        html += `<div class="restaurant-notes">${esc(items)}</div>`;
+        continue;
+      }
+      html += `<div class="menu-section">`;
+      html += `<div class="menu-section-title">${formatSection(section)}</div>`;
+
+      if (Array.isArray(items)) {
+        items.forEach(item => {
+          html += '<div class="menu-item">';
+          html += `<div class="menu-item-header">`;
+          html += `<span class="menu-item-name">${esc(item.name)}</span>`;
+          if (item.price) html += `<span class="menu-item-price">$${item.price.toFixed(2)}</span>`;
+          if (item.price_range) html += `<span class="menu-item-price">${esc(item.price_range)}</span>`;
+          html += `</div>`;
+          if (item.notes) html += `<div class="menu-item-notes">${esc(item.notes)}</div>`;
+          html += '</div>';
+        });
+      }
+      html += '</div>';
+    }
+
+    html += '</div>';
+    app.innerHTML = html;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Format section titles (e.g. "PANER" → "Paner", "FRIED IDLI CHAAT" → "Fried Idli Chaat")
+  function formatSection(s) {
+    return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase()
+      .replace(/([a-z])([A-Z])/g, '$1 $2');
+  }
+
+  // Escape HTML
+  function esc(str) {
+    if (!str) return '';
+    const div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  }
+
+  // Init
+  loadData();
+
+  // Expose showDetail globally for onclick
+  window.showDetail = showDetail;
+})();
+
+  </script>
+</body>
+</html>
