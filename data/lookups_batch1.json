@@ -6,20 +6,20 @@
     "rating": "4.9",
     "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(774) 623-4131",
-    "website": "kushbysaba.com",
-    "cuisine": "Restaurant",
-    "cid": "12117482272962753678",
-    "maps_url": "https://www.google.com/maps/?cid=12117482272962753678"
+    "website": "",
+    "cuisine": "",
+    "cid": "9935920858873529711",
+    "maps_url": "https://www.google.com/maps/?cid=9935920858873529711"
   },
   {
     "name": "Kajiken",
-    "note": "",
-    "address": "",
+    "note": "Soupless ramen & Karaage Curry Don!!",
+    "address": "83 Harrison Ave, Boston, MA 02111",
     "rating": "4.4",
     "hours": "Hours Open · Closes 9:30 PM Show open hours for the week Updated by this business 12 weeks ago",
     "phone": "(857) 277-0116",
-    "website": "kajiken-usa.com",
-    "cuisine": "Restaurant",
+    "website": "",
+    "cuisine": "",
     "cid": "",
     "maps_url": ""
   },
@@ -30,8 +30,8 @@
     "rating": "5.0",
     "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 945-1207",
-    "website": "currychapter.com",
-    "cuisine": "#TheCurryChapter",
+    "website": "",
+    "cuisine": "Modern Indian restaurant",
     "cid": "",
     "maps_url": ""
   }
