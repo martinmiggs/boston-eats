@@ -14,7 +14,7 @@
   {
     "name": "Kajiken",
     "note": "Soupless ramen & Karaage Curry Don!!",
-    "address": "",
+    "address": "83 Harrison Ave, Boston, MA 02111",
     "rating": "4.4",
     "hours": "Hours Open · Closes 9:30 PM Show open hours for the week Updated by this business 12 weeks ago",
     "phone": "(857) 277-0116",
@@ -31,7 +31,7 @@
     "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 945-1207",
     "website": "currychapter.com",
-    "cuisine": "#TheCurryChapter",
+    "cuisine": "Modern Indian restaurant",
     "cid": "",
     "maps_url": ""
   },
@@ -76,7 +76,7 @@
     "note": "",
     "address": "",
     "rating": "4.5",
-    "hours": "",
+    "hours": "Open · Closes 10 PM · See more hours",
     "phone": "(617) 248-9629",
     "website": "briccosalumeria.com",
     "cuisine": "Bricco Salumeria & Pasta Shop",
@@ -91,7 +91,7 @@
     "hours": "Hours Open · Closes 1 AM Show open hours for the week",
     "phone": "(617) 752-4949",
     "website": "motherseast.com",
-    "cuisine": "",
+    "cuisine": "Photo of Mother's East Tavern",
     "cid": "",
     "maps_url": ""
   },
@@ -112,10 +112,10 @@
     "note": "One night pizza night",
     "address": "24 High St",
     "rating": "4.7",
-    "hours": "",
-    "phone": "",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(781) 391-0012",
     "website": "",
-    "cuisine": "Ebisuya - Japanese Noodle House",
+    "cuisine": "Grocery store offering foods imported from Japan, sushi-quality fish & kitchenware.",
     "cid": "",
     "maps_url": ""
   },
@@ -127,7 +127,7 @@
     "hours": "Hours Closes soon · 4 PM · Opens 11 AM Mon Show open hours for the week",
     "phone": "(617) 542-0392",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Identifies as Latino-owned",
     "cid": "",
     "maps_url": ""
   },
@@ -163,7 +163,7 @@
     "hours": "",
     "phone": "",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Learn more about legal disclosure regarding public reviews on Google Maps",
     "cid": "",
     "maps_url": ""
   },
@@ -175,7 +175,7 @@
     "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 739-5500",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Cool takeaway dishing up housemade Latin American empanadas with savory fillings.",
     "cid": "",
     "maps_url": ""
   },
@@ -223,7 +223,7 @@
     "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(857) 452-6231",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Photo of La Cabaña Foodtruck",
     "cid": "",
     "maps_url": ""
   },
@@ -271,7 +271,7 @@
     "hours": "",
     "phone": "",
     "website": "",
-    "cuisine": "Big Al's Pizza boston",
+    "cuisine": "Big+Al's+Pizza boston ma",
     "cid": "",
     "maps_url": ""
   },

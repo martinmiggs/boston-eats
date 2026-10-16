@@ -1,3109 +1,1634 @@
 [
   {
     "name": "Kush Modern Mediterranean",
+    "note": "",
     "address": "",
+    "rating": "4.9",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(774) 623-4131",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "https://www.google.com/maps/?cid=12117482272962753678",
-    "tags": {
-      "cuisine": [
-        "Restaurant"
-      ],
-      "location": []
-    },
     "website": "kushbysaba.com",
-    "cid": "12117482272962753678"
+    "cuisine": "Restaurant",
+    "cid": "12117482272962753678",
+    "maps_url": "https://www.google.com/maps/?cid=12117482272962753678"
   },
   {
     "name": "Kajiken",
-    "address": "",
+    "note": "Soupless ramen & Karaage Curry Don!!",
+    "address": "83 Harrison Ave, Boston, MA 02111",
+    "rating": "4.4",
+    "hours": "Hours Open · Closes 9:30 PM Show open hours for the week Updated by this business 12 weeks ago",
     "phone": "(857) 277-0116",
-    "cuisine": "Restaurant",
-    "rating": 4.4,
-    "review_count": 0,
-    "hours": "Open · Closes 9:30 PM",
-    "notes": "Soupless ramen & Karaage Curry Don!!",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Restaurant"
-      ],
-      "location": []
-    },
     "website": "kajiken-usa.com",
-    "cid": ""
+    "cuisine": "Restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Curry Chapter",
+    "note": "",
     "address": "18 Eliot St, Cambridge, MA 02138",
+    "rating": "5.0",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 945-1207",
-    "cuisine": "#TheCurryChapter",
-    "rating": 5.0,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "#Thecurrychapter"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "currychapter.com",
-    "cid": ""
+    "cuisine": "Modern Indian restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "NAMU Distilling Co.",
+    "note": "",
     "address": "89 Heath St, Boston, MA 02130",
+    "rating": "4.8",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "",
-    "cuisine": "Nearby restaurants",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Restaurants"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "namudistilling.com",
-    "cid": ""
+    "cuisine": "Nearby restaurants",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "R&S Jamaican Restaurant",
+    "note": "",
     "address": "38 Norfolk St, Dorchester, MA 02124",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 275-0018",
-    "cuisine": "R&S Jamaican Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "R&S",
-        "Jamaican",
-        "Restaurant"
-      ],
-      "location": [
-        "Dorchester"
-      ]
-    },
     "website": "rs-jamaicanrestaurant.com",
-    "cid": ""
+    "cuisine": "R&S Jamaican Restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Season to Taste",
+    "note": "Chef's tasting menu at the counter",
     "address": "1678 Massachusetts Ave, Cambridge, MA 02138",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 826-9037",
-    "cuisine": "Nearby restaurants",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "Chef's tasting menu at the counter",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Restaurants"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "seasontotaste.com",
-    "cid": ""
+    "cuisine": "Nearby restaurants",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Bricco Salumeria & Pasta Shop",
+    "note": "",
     "address": "",
+    "rating": "4.5",
+    "hours": "Open · Closes 10 PM · See more hours",
     "phone": "(617) 248-9629",
-    "cuisine": "Bricco Salumeria & Pasta Shop",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Bricco",
-        "Salumeria",
-        "Pasta",
-        "Shop"
-      ],
-      "location": []
-    },
     "website": "briccosalumeria.com",
-    "cid": ""
+    "cuisine": "Bricco Salumeria & Pasta Shop",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Mother's East Tavern",
+    "note": "Smash Burger!!",
     "address": "289 Dorchester St, Boston, MA 02127",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 1 AM Show open hours for the week",
     "phone": "(617) 752-4949",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 1 AM",
-    "notes": "Smash Burger!!",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "motherseast.com",
-    "cid": ""
+    "cuisine": "Photo of Mother's East Tavern",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Boston King Coffee",
+    "note": "",
     "address": "186 Cambridge Rd, Woburn, MA 01801",
+    "rating": "4.9",
+    "hours": "Hours Closed · Opens 8 AM Sat Show open hours for the week",
     "phone": "(781) 933-0104",
-    "cuisine": "Photo of Boston King Coffee",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Closed · Opens 8 AM Sat",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Boston",
-        "King",
-        "Coffee"
-      ],
-      "location": [
-        "Woburn"
-      ]
-    },
     "website": "bostonkingcoffee.com",
-    "cid": ""
+    "cuisine": "Photo of Boston King Coffee",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "えびすや",
+    "note": "One night pizza night",
     "address": "24 High St",
-    "phone": "",
-    "cuisine": "Ebisuya - Japanese Noodle House",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "",
-    "notes": "One night pizza night",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Ebisuya",
-        "Japanese",
-        "Noodle",
-        "House"
-      ],
-      "location": []
-    },
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(781) 391-0012",
     "website": "",
-    "cid": ""
+    "cuisine": "Grocery store offering foods imported from Japan, sushi-quality fish & kitchenware.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Chacarero",
+    "note": "",
     "address": "101 Arch St, Boston, MA 02110",
+    "rating": "4.6",
+    "hours": "Hours Closes soon · 4 PM · Opens 11 AM Mon Show open hours for the week",
     "phone": "(617) 542-0392",
-    "cuisine": "Restaurant",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Closes soon · 4 PM · Opens 11 AM Mon",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Identifies as Latino-owned",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Kenzoku Mazesoba",
+    "note": "",
     "address": "506 Park Dr, Boston, MA 02215",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 8:30 PM Show open hours for the week",
     "phone": "(617) 608-3572",
-    "cuisine": "Photo of Kenzoku Mazesoba",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 8:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Kenzoku",
-        "Mazesoba"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Kenzoku Mazesoba",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Novo Lantern 燈火阑珊",
+    "note": "",
     "address": "1750 Washington St, Boston, MA 02118",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 10:30 PM Show open hours for the week",
     "phone": "(857) 991-1937",
-    "cuisine": "Restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 10:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Yum! by Kaju",
+    "note": "",
     "address": "54 Harvard Ave",
-    "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "Learn more about legal disclosure regarding public reviews on Google Maps",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Bocadillos",
+    "note": "Empanadas",
     "address": "293 Cypress St, Brookline, MA 02445",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 739-5500",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "Empanadas",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Cool takeaway dishing up housemade Latin American empanadas with savory fillings.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Chinatown Cafe",
+    "note": "Roast duck and roast pork",
     "address": "262 Harrison Ave, Boston, MA 02111",
+    "rating": "4.1",
+    "hours": "Hours Open · Closes 7 PM Show open hours for the week",
     "phone": "(617) 695-9888",
-    "cuisine": "Photo of Chinatown Cafe",
-    "rating": 4.1,
-    "review_count": 0,
-    "hours": "Open · Closes 7 PM",
-    "notes": "Roast duck and roast pork",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Chinatown",
-        "Cafe"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Chinatown Cafe",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Banshee",
+    "note": "Spice bag!!",
     "address": "934 Dorchester Ave, Boston, MA 02125",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 1 AM Show open hours for the week",
     "phone": "(617) 436-9747",
-    "cuisine": "Irish sports pub playing rugby & soccer matches on numerous TVs, with a bar menu & pints of beer.",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Open · Closes 1 AM",
-    "notes": "Spice bag!!",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Irish",
-        "Sports",
-        "Pub",
-        "Playing",
-        "Rugby",
-        "Soccer",
-        "Matches",
-        "Numerous",
-        "TVs",
-        "With",
-        "Bar",
-        "Menu",
-        "Pints",
-        "Beer."
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Irish sports pub playing rugby & soccer matches on numerous TVs, with a bar menu & pints of beer.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Tavern at the End of the World",
+    "note": "Ask for spice bag",
     "address": "108 Cambridge St, Charlestown, MA 02129",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 2 AM Show open hours for the week",
     "phone": "(617) 241-4999",
-    "cuisine": "Tavern at the End of the World",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Open · Closes 2 AM",
-    "notes": "Ask for spice bag",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Tavern",
-        "The",
-        "End",
-        "The",
-        "World"
-      ],
-      "location": [
-        "Charlestown"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Tavern at the End of the World",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "La Cabaña Foodtruck",
+    "note": "",
     "address": "386 Main St, Melrose, MA 02176",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(857) 452-6231",
-    "cuisine": "Restaurant",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Melrose"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of La Cabaña Foodtruck",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Nouvé Bakery",
+    "note": "",
     "address": "1736 Massachusetts Ave, Lexington, MA 02420",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 4:30 PM Show open hours for the week",
     "phone": "",
-    "cuisine": "Photo of Nouvé Bakery",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 4:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Nouvé",
-        "Bakery"
-      ],
-      "location": [
-        "Lexington"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Nouvé Bakery",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "norinori",
+    "note": "",
     "address": "399 Chestnut Hill Ave, Brookline, MA 02445",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week Updated by this business 12 weeks ago",
     "phone": "(617) 383-5652",
-    "cuisine": "Restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM Updated by this business 12 weeks ago",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Sizzle n’ Slurp",
+    "note": "",
     "address": "",
-    "phone": "(617) 764-2087",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "https://www.google.com/maps/?cid=9935916056205776151",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "(617) 764-2087",
     "website": "",
-    "cid": "9935916056205776151"
+    "cuisine": "",
+    "cid": "9935916056205776151",
+    "maps_url": "https://www.google.com/maps/?cid=9935916056205776151"
   },
   {
     "name": "Big Al's Pizza",
+    "note": "Angry Roni Pizza",
     "address": "343 Main Street",
-    "phone": "",
-    "cuisine": "Big Al's Pizza boston",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "Angry Roni Pizza",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Big",
-        "Al's",
-        "Pizza",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "Big+Al's+Pizza boston ma",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Thonglor",
+    "note": "",
     "address": "559 Washington St, Brighton, MA 02135",
+    "rating": "4.5",
+    "hours": "Hours Closed · Opens 4:30 PM Show open hours for the week",
     "phone": "(617) 208-8184",
-    "cuisine": "Restaurant",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Closed · Opens 4:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Brighton"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "I Fresh Noodle",
+    "note": "",
     "address": "182 Brighton Ave, Boston, MA 02134",
+    "rating": "4.2",
+    "hours": "Hours Open · Closes 9:30 PM Show open hours for the week",
     "phone": "(617) 787-8888",
-    "cuisine": "Photo of I Fresh Noodle",
-    "rating": 4.2,
-    "review_count": 0,
-    "hours": "Open · Closes 9:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Fresh",
-        "Noodle"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of I Fresh Noodle",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Annie's Pizzeria",
+    "note": "Birria Pizza",
     "address": "213 Middlesex Ave, Medford, MA 02155",
-    "phone": "(781) 219-3731",
-    "cuisine": "Restaurant",
-    "rating": 4.5,
-    "review_count": 0,
+    "rating": "4.5",
     "hours": "",
-    "notes": "Birria Pizza",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Medford"
-      ]
-    },
+    "phone": "(781) 219-3731",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Rassa Indian Cuisine",
+    "note": "",
     "address": "470 Moody St, Waltham, MA 02453",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(781) 472-4000",
-    "cuisine": "Photo of Rassa Indian Cuisine",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Rassa",
-        "Indian",
-        "Cuisine"
-      ],
-      "location": [
-        "Waltham"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Rassa Indian Cuisine",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Juanitas Kitchen",
+    "note": "",
     "address": "235 Newton St, Waltham, MA 02453",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(781) 790-8567",
-    "cuisine": "Photo of Juanitas Kitchen",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Juanitas",
-        "Kitchen"
-      ],
-      "location": [
-        "Waltham"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Juanitas Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "BABA SHAWARMA",
+    "note": "",
     "address": "100 Blackstone St, Boston, MA 02109",
-    "phone": "(617) 857-2222",
-    "cuisine": "Photo of BABA SHAWARMA",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "BABA",
-        "SHAWARMA"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
+    "phone": "(617) 857-2222",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of BABA SHAWARMA",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Crystal Spoons",
+    "note": "",
     "address": "1950 Washington St, Boston, MA 02118",
-    "phone": "(781) 499-5933",
-    "cuisine": "Photo of Crystal Spoons",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Crystal",
-        "Spoons"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
+    "phone": "(781) 499-5933",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Crystal Spoons",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Cathay Kitchen",
+    "note": "Spice bag!!!",
     "address": "563 High St, Dedham, MA 02026",
-    "phone": "(781) 329-2786",
-    "cuisine": "Photo of Cathay Kitchen",
-    "rating": 4.0,
-    "review_count": 0,
+    "rating": "4.0",
     "hours": "",
-    "notes": "Spice bag!!!",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Cathay",
-        "Kitchen"
-      ],
-      "location": [
-        "Dedham"
-      ]
-    },
+    "phone": "(781) 329-2786",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Cathay Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Third Time Together",
+    "note": "",
     "address": "399 Binney St, Cambridge, MA 02142",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Jahunger Cambridge",
+    "note": "",
     "address": "272 Brookline St, Cambridge, MA 02139",
-    "phone": "(617) 801-9725",
-    "cuisine": "Uyghur cuisine restaurant",
-    "rating": 4.3,
-    "review_count": 0,
+    "rating": "4.3",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Uyghur",
-        "Cuisine",
-        "Restaurant"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
+    "phone": "(617) 801-9725",
     "website": "",
-    "cid": ""
+    "cuisine": "Uyghur cuisine restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Ashami momo",
+    "note": "",
     "address": "278 Pearl St, Malden, MA 02148",
-    "phone": "(781) 960-8819",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Malden"
-      ]
-    },
+    "phone": "(781) 960-8819",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Suya Joint",
+    "note": "",
     "address": "185 Dudley St, Boston, MA 02119",
+    "rating": "3.9",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(857) 351-3717",
-    "cuisine": "Restaurant",
-    "rating": 3.9,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Alma Gaucha",
+    "note": "Brazilian recommend",
     "address": "401 D St, Boston, MA 02210",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 10:30 PM Show open hours for the week",
     "phone": "(617) 420-4900",
-    "cuisine": "Cozy Brazilian steakhouse offering specialty meats & a buffet for sides & salads.",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 10:30 PM",
-    "notes": "Brazilian recommend",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Cozy",
-        "Brazilian",
-        "Steakhouse",
-        "Offering",
-        "Specialty",
-        "Meats",
-        "Buffet",
-        "For",
-        "Sides",
-        "Salads."
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Cozy Brazilian steakhouse offering specialty meats & a buffet for sides & salads.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Down Low",
+    "note": "Speakeasy",
     "address": "371 Main St Underground, Woburn, MA 01801",
+    "rating": "4.2",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(781) 935-6699",
-    "cuisine": "Restaurant",
-    "rating": 4.2,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "Speakeasy",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Woburn"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Jim's Market",
+    "note": "Honey mustard tenders sub",
     "address": "463 Fulton St, Medford, MA 02155",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(781) 395-5704",
-    "cuisine": "Easygoing stop for basic groceries, sundries & a deli offering subs & breakfast sandwiches.",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "Honey mustard tenders sub",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Easygoing",
-        "Stop",
-        "For",
-        "Basic",
-        "Groceries",
-        "Sundries",
-        "Deli",
-        "Offering",
-        "Subs",
-        "Breakfast",
-        "Sandwiches."
-      ],
-      "location": [
-        "Medford"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Easygoing stop for basic groceries, sundries & a deli offering subs & breakfast sandwiches.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "MACHI - South Indian Kitchen",
+    "note": "",
     "address": "477 Harvard St",
-    "phone": "",
-    "cuisine": "MACHI+-+South+Indian+Kitchen boston",
-    "rating": 4.3,
-    "review_count": 0,
+    "rating": "4.3",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "MACHI+-+South+Indian+Kitchen",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "MACHI+-+South+Indian+Kitchen boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Chivo Taqueria",
+    "note": "Papusas",
     "address": "1728 Massachusetts Ave, Cambridge, MA 02138",
-    "phone": "(857) 242-3343",
-    "cuisine": "Photo of Chivo Taqueria",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "Papusas",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Chivo",
-        "Taqueria"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
+    "phone": "(857) 242-3343",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Chivo Taqueria",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Mahalab Bakery",
+    "note": "",
     "address": "1786 Massachusetts Ave, Cambridge, MA 02140",
+    "rating": "5.0",
+    "hours": "Hours Closes soon · 4 PM · Opens 9 AM Sat Show open hours for the week",
     "phone": "(617) 501-3416",
-    "cuisine": "Photo of Mahalab Bakery",
-    "rating": 5.0,
-    "review_count": 0,
-    "hours": "Closes soon · 4 PM · Opens 9 AM Sat",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Mahalab",
-        "Bakery"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Mahalab Bakery",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Black Ruby: Thai Craft Burger & Dining",
+    "note": "",
     "address": "1790 Massachusetts Ave, Cambridge, MA 02140",
+    "rating": "4.7",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
     "phone": "(617) 945-3147",
-    "cuisine": "Black Ruby: Thai Craft Burger & Dining",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Opens soon · 4 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Black",
-        "Ruby:",
-        "Thai",
-        "Craft",
-        "Burger",
-        "Dining"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Black Ruby: Thai Craft Burger & Dining",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Elia Taverna Marblehead",
+    "note": "",
     "address": "261 Washington St, Marblehead, MA 01945",
+    "rating": "4.8",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
     "phone": "(781) 499-5006",
-    "cuisine": "Elia Taverna Marblehead",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Opens soon · 4 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Elia",
-        "Taverna",
-        "Marblehead"
-      ],
-      "location": [
-        "Marblehead"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Elia Taverna Marblehead",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Lucy's Craft Deli",
+    "note": "",
     "address": "472 High St, Medford, MA 02155",
+    "rating": "4.8",
+    "hours": "Hours Closed · Opens 10:30 AM Sat Show open hours for the week",
     "phone": "(781) 852-2005",
-    "cuisine": "Photo of Lucy's Craft Deli",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Closed · Opens 10:30 AM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Lucy's",
-        "Craft",
-        "Deli"
-      ],
-      "location": [
-        "Medford"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Lucy's Craft Deli",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Golden Monkey Cafe",
+    "note": "",
     "address": "468 Chestnut St, Lynn, MA 01902",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(781) 778-3342",
-    "cuisine": "The Golden Monkey Cafe",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "The",
-        "Golden",
-        "Monkey",
-        "Cafe"
-      ],
-      "location": [
-        "Lynn"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "The Golden Monkey Cafe",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "SANBADA",
+    "note": "",
     "address": "165 Brighton Ave, Allston, MA 02134",
-    "phone": "(617) 870-7674",
-    "cuisine": "Restaurant",
-    "rating": 4.8,
-    "review_count": 0,
+    "rating": "4.8",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Allston"
-      ]
-    },
+    "phone": "(617) 870-7674",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "FRIES B4 GUYS",
+    "note": "",
     "address": "485 Cambridge St, Boston, MA 02134",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 2 AM Show open hours for the week",
     "phone": "(857) 498-3839",
-    "cuisine": "Photo of FRIES B4 GUYS",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 2 AM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "FRIES",
-        "GUYS"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of FRIES B4 GUYS",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Kokoro Don Cafe",
+    "note": "",
     "address": "66 Summer St, Somerville, MA 02143",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(857) 500-7937",
-    "cuisine": "Photo of Kokoro Don Cafe",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Kokoro",
-        "Don",
-        "Cafe"
-      ],
-      "location": [
-        "Somerville"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Kokoro Don Cafe",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Chicho's Boston",
+    "note": "",
     "address": "88 Seaport Blvd, Boston, MA 02210",
+    "rating": "5.0",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 5.0,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Mala Town 自选麻辣烫",
+    "note": "Make your own hotpot",
     "address": "194 Harvard Ave",
-    "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.2,
-    "review_count": 0,
+    "rating": "4.2",
     "hours": "",
-    "notes": "Make your own hotpot",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Maq's",
+    "note": "",
     "address": "176 University Ave, Lowell, MA 01854",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(978) 427-7976",
-    "cuisine": "Restaurant",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Lowell"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Aama Lama",
+    "note": "",
     "address": "519 Main St, Malden, MA 02148",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(781) 321-8800",
-    "cuisine": "Restaurant",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Malden"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Pueblo Viejo",
+    "note": "",
     "address": "170 Marion St",
-    "phone": "",
-    "cuisine": "Salvadoran restaurant",
-    "rating": 4.1,
-    "review_count": 0,
+    "rating": "4.1",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Salvadoran",
-        "Restaurant"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "Salvadoran restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Greek Gyro",
+    "note": "",
     "address": "88 Peterborough St, Boston, MA 02215",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(857) 991-1000",
-    "cuisine": "Photo of The Greek Gyro",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "The",
-        "Greek",
-        "Gyro"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of The Greek Gyro",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "KChickin (Korean, Sushi, Hand roll and Japanese Cuisine)",
+    "note": "",
     "address": "86 Peterborough St, Boston, MA 02215",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(857) 348-1351",
-    "cuisine": "KChickin (Korean, Sushi, Hand roll and Japanese Cuisine)",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "KChickin",
-        "(Korean",
-        "Sushi",
-        "Hand",
-        "Roll",
-        "And",
-        "Japanese",
-        "Cuisine)"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "KChickin (Korean, Sushi, Hand roll and Japanese Cuisine)",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Cafe Noodo",
+    "note": "",
     "address": "1 Nashua St Ste 121",
-    "phone": "(617) 536-3100",
-    "cuisine": "Get directions to Cafe Noodo",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Get",
-        "Directions",
-        "Cafe",
-        "Noodo"
-      ],
-      "location": []
-    },
+    "phone": "(617) 536-3100",
     "website": "",
-    "cid": ""
+    "cuisine": "Get directions to Cafe Noodo",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Dynasty",
+    "note": "Vegetarian rice roll",
     "address": "",
-    "phone": "(617) 603-8796",
-    "cuisine": "Restaurant",
-    "rating": 4.2,
-    "review_count": 0,
+    "rating": "4.2",
     "hours": "",
-    "notes": "Vegetarian rice roll",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "(617) 603-8796",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Taqueria El Amigo",
+    "note": "",
     "address": "196 Willow St, Waltham, MA 02453",
-    "phone": "(781) 642-7410",
-    "cuisine": "Lively eatery turning out traditional Mexican specialties in a small, utilitarian space.",
-    "rating": 4.7,
-    "review_count": 0,
+    "rating": "4.7",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Lively",
-        "Eatery",
-        "Turning",
-        "Out",
-        "Traditional",
-        "Mexican",
-        "Specialties",
-        "Small",
-        "Utilitarian",
-        "Space."
-      ],
-      "location": [
-        "Waltham"
-      ]
-    },
+    "phone": "(781) 642-7410",
     "website": "",
-    "cid": ""
+    "cuisine": "Lively eatery turning out traditional Mexican specialties in a small, utilitarian space.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Feng Shui",
+    "note": "Buffet",
     "address": "2200 District Ave",
-    "phone": "",
-    "cuisine": "Feng Shui Restaurant & Bar",
-    "rating": 5.0,
-    "review_count": 0,
+    "rating": "5.0",
     "hours": "",
-    "notes": "Buffet",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Feng",
-        "Shui",
-        "Restaurant",
-        "Bar"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "Feng Shui Restaurant & Bar",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Taqueria La Unica",
+    "note": "",
     "address": "480 Haverhill St",
-    "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Lanner Noodles&Bar",
+    "note": "",
     "address": "24 Pearl St, Cambridge, MA 02139",
+    "rating": "4.5",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(229) 756-2178",
-    "cuisine": "Photo of Lanner Noodles&Bar",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Lanner",
-        "Noodles&Bar"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Lanner Noodles&Bar",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Ama at The Atlas",
+    "note": "",
     "address": "40 Western Ave, Allston, MA 02134",
-    "phone": "(617) 675-8880",
-    "cuisine": "Restaurant",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Allston"
-      ]
-    },
+    "phone": "(617) 675-8880",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Joanie's Pizza",
+    "note": "",
     "address": "",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(978) 856-7015",
-    "cuisine": "Photo of Joanie's Pizza",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Joanie's",
-        "Pizza"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Joanie's Pizza",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Burg & Shaw",
+    "note": "",
     "address": "211 Tremont St, Boston, MA 02116",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 1 AM Show open hours for the week",
     "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 1 AM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "BaYao Cafe 伯友茶記",
+    "note": "Crispy chicken with omelette rice",
     "address": "429 Hancock St, Quincy, MA 02171",
-    "phone": "(617) 845-5322",
-    "cuisine": "BaYao+Cafe+伯友茶記 boston",
-    "rating": 4.3,
-    "review_count": 0,
+    "rating": "4.3",
     "hours": "",
-    "notes": "Crispy chicken with omelette rice",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "BaYao+Cafe+伯友茶記",
-        "Boston"
-      ],
-      "location": [
-        "Quincy"
-      ]
-    },
+    "phone": "(617) 845-5322",
     "website": "",
-    "cid": ""
+    "cuisine": "BaYao+Cafe+伯友茶記 boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Silver Whisk Bake Shop & Chocolatier",
+    "note": "",
     "address": "248 Moody St, Waltham, MA 02453",
-    "phone": "(857) 264-0135",
-    "cuisine": "Silver Whisk Bake Shop & Chocolatier",
-    "rating": 5.0,
-    "review_count": 0,
+    "rating": "5.0",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Silver",
-        "Whisk",
-        "Bake",
-        "Shop",
-        "Chocolatier"
-      ],
-      "location": [
-        "Waltham"
-      ]
-    },
+    "phone": "(857) 264-0135",
     "website": "",
-    "cid": ""
+    "cuisine": "Silver Whisk Bake Shop & Chocolatier",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Aatma At Widowmaker",
+    "note": "",
     "address": "190 N Beacon St, Boston, MA 02135",
+    "rating": "4.7",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
     "phone": "(617) 390-0660",
-    "cuisine": "Modern Indian restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Opens soon · 4 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Modern",
-        "Indian",
-        "Restaurant"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Modern Indian restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Olba",
+    "note": "",
     "address": "1383 Beacon St, Brookline, MA 02446",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9:50 PM Show open hours for the week",
     "phone": "(857) 746-6004",
-    "cuisine": "Mediterranean restaurant",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 9:50 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Mediterranean",
-        "Restaurant"
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Mediterranean restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Little Big Diner",
+    "note": "",
     "address": "1247 Centre St, Newton, MA 02459",
+    "rating": "4.6",
+    "hours": "Hours Closed · Opens 4:30 PM Show open hours for the week",
     "phone": "(857) 404-0068",
-    "cuisine": "Photo of Little Big Diner",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Closed · Opens 4:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Little",
-        "Big",
-        "Diner"
-      ],
-      "location": [
-        "Newton"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Little Big Diner",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Grandma’s Kitchen",
+    "note": "",
     "address": "823 Washington St, Newton, MA 02460",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 6 PM Show open hours for the week",
     "phone": "(617) 467-5215",
-    "cuisine": "Photo of Grandma’s Kitchen",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 6 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Grandma’s",
-        "Kitchen"
-      ],
-      "location": [
-        "Newton"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Grandma’s Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Charcoal Pit Mediterranean Grill",
+    "note": "",
     "address": "",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(978) 519-3079",
-    "cuisine": "The Charcoal Pit Mediterranean Grill",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "The",
-        "Charcoal",
-        "Pit",
-        "Mediterranean",
-        "Grill"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "The Charcoal Pit Mediterranean Grill",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Park's Kitchen",
+    "note": "",
     "address": "122 Brighton Ave, Allston, MA 02134",
-    "phone": "(617) 618-8099",
-    "cuisine": "Photo of Park's Kitchen",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Park's",
-        "Kitchen"
-      ],
-      "location": [
-        "Allston"
-      ]
-    },
+    "phone": "(617) 618-8099",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Park's Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Fallow Kin",
+    "note": "",
     "address": "853 Main St, Cambridge, MA 02139",
+    "rating": "4.4",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 395-1098",
-    "cuisine": "Restaurant",
-    "rating": 4.4,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Vang Coffee Bar",
+    "note": "",
     "address": "1456 Hancock St, Quincy, MA 02169",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 481-1018",
-    "cuisine": "Photo of Vang Coffee Bar",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Vang",
-        "Coffee",
-        "Bar"
-      ],
-      "location": [
-        "Quincy"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Vang Coffee Bar",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Brookline Lunch",
+    "note": "",
     "address": "9 Brookline St, Cambridge, MA 02139",
+    "rating": "4.4",
+    "hours": "Hours Closed · Opens 8:30 AM Sat Show open hours for the week",
     "phone": "(617) 354-2983",
-    "cuisine": "Photo of Brookline Lunch",
-    "rating": 4.4,
-    "review_count": 0,
-    "hours": "Closed · Opens 8:30 AM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Brookline",
-        "Lunch"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Brookline Lunch",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Endless Hibachi & Sushi Peabody (AYCE)",
+    "note": "",
     "address": "82 Newbury St 2nd FL, Peabody, MA 01960",
+    "rating": "4.6",
+    "hours": "Hours Closed · Opens 4:30 PM Show open hours for the week",
     "phone": "(978) 854-5125",
-    "cuisine": "Endless Hibachi & Sushi Peabody (AYCE)",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Closed · Opens 4:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Endless",
-        "Hibachi",
-        "Sushi",
-        "Peabody",
-        "(Ayce)"
-      ],
-      "location": [
-        "Peabody"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Endless Hibachi & Sushi Peabody (AYCE)",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Cafe Mami",
+    "note": "",
     "address": "1815 Massachusetts Ave, Cambridge, MA 02140",
+    "rating": "4.6",
+    "hours": "Hours Closes soon · 4 PM · Reopens 5 PM Show open hours for the week",
     "phone": "(617) 547-9130",
-    "cuisine": "Restaurant",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Closes soon · 4 PM · Reopens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Home Taste",
+    "note": "",
     "address": "58 Mt Auburn St, Watertown, MA 02472",
-    "phone": "(617) 923-0227",
-    "cuisine": "Small, vibrant eatery offering Sichuan dishes from noodles to stir-fries, plus lunch specials.",
-    "rating": 4.3,
-    "review_count": 0,
+    "rating": "4.3",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Small",
-        "Vibrant",
-        "Eatery",
-        "Offering",
-        "Sichuan",
-        "Dishes",
-        "From",
-        "Noodles",
-        "Stir-Fries",
-        "Plus",
-        "Lunch",
-        "Specials."
-      ],
-      "location": [
-        "Watertown"
-      ]
-    },
+    "phone": "(617) 923-0227",
     "website": "",
-    "cid": ""
+    "cuisine": "Small, vibrant eatery offering Sichuan dishes from noodles to stir-fries, plus lunch specials.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "The Modern Butcher",
+    "note": "",
     "address": "36 Maple St, Danvers, MA 01923",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 5 PM Show open hours for the week",
     "phone": "(978) 750-9829",
-    "cuisine": "Photo of The Modern Butcher",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "The",
-        "Modern",
-        "Butcher"
-      ],
-      "location": [
-        "Danvers"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of The Modern Butcher",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Nagomi Bento Bow Market",
+    "note": "",
     "address": "",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 4:30 PM Show open hours for the week",
     "phone": "(857) 324-2376",
-    "cuisine": "Nagomi Bento Bow Market",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 4:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Nagomi",
-        "Bento",
-        "Bow",
-        "Market"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Nagomi Bento Bow Market",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Bao's Kitchen 包园",
+    "note": "",
     "address": "109 Water St",
-    "phone": "(781) 246-0489",
-    "cuisine": "Bao's+Kitchen+包园 boston",
-    "rating": 2.0,
-    "review_count": 0,
+    "rating": "2.0",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Bao's+Kitchen+包园",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "(781) 246-0489",
     "website": "",
-    "cid": ""
+    "cuisine": "Bao's+Kitchen+包园 boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "School Street Foods",
+    "note": "",
     "address": "289 Merrimack St",
-    "phone": "",
-    "cuisine": "School+Street+Foods boston",
-    "rating": 5.0,
-    "review_count": 0,
+    "rating": "5.0",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "School+Street+Foods",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "School+Street+Foods boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Roksana",
+    "note": "",
     "address": "133 Mt Auburn St, Watertown, MA 02472",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 393-2229",
-    "cuisine": "Restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Watertown"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Chung-Shin Yuan",
+    "note": "",
     "address": "183 California St, Newton, MA 02458",
+    "rating": "4.0",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 964-0111",
-    "cuisine": "Casual Chinese eatery known for traditional Taiwanese dim sum brunch (weekends only).",
-    "rating": 4.0,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Casual",
-        "Chinese",
-        "Eatery",
-        "Known",
-        "For",
-        "Traditional",
-        "Taiwanese",
-        "Dim",
-        "Sum",
-        "Brunch",
-        "(Weekends",
-        "Only)."
-      ],
-      "location": [
-        "Newton"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Casual Chinese eatery known for traditional Taiwanese dim sum brunch (weekends only).",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "La Bodega",
+    "note": "",
     "address": "21 Nichols Ave, Watertown, MA 02472",
-    "phone": "(617) 876-8444",
-    "cuisine": "Restaurant",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Watertown"
-      ]
-    },
+    "phone": "(617) 876-8444",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Trencito - Taqueria & Deli",
+    "note": "",
     "address": "125 Main Street",
-    "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Fuchun Ju",
+    "note": "Pan fried pork buns",
     "address": "55 Beach St, Boston, MA 02111",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 10:30 PM Show open hours for the week",
     "phone": "(857) 300-7449",
-    "cuisine": "Restaurant",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Open · Closes 10:30 PM",
-    "notes": "Pan fried pork buns",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Potluck Cafe",
+    "note": "Pan fried pork dumplings",
     "address": "7 Knapp St, Boston, MA 02111",
+    "rating": "4.2",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 482-1188",
-    "cuisine": "Unassuming Chinese restaurant serving Cantonese & Hong Kong-style fare in a cafeteria-style format.",
-    "rating": 4.2,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "Pan fried pork dumplings",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Unassuming",
-        "Chinese",
-        "Restaurant",
-        "Serving",
-        "Cantonese",
-        "Hong",
-        "Kong-style",
-        "Fare",
-        "Cafeteria-Style",
-        "Format."
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Unassuming Chinese restaurant serving Cantonese & Hong Kong-style fare in a cafeteria-style format.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Crush Pizza",
+    "note": "Chicken Caesar sub",
     "address": "986 Bennington St, Boston, MA 02128",
+    "rating": "4.3",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(857) 283-5333",
-    "cuisine": "Restaurant",
-    "rating": 4.3,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "Chicken Caesar sub",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Miraku Boston",
+    "note": "Tsuramen",
     "address": "9 Babcock St, Brookline, MA 02446",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 407-1368",
-    "cuisine": "Restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "Tsuramen",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Square Deli Pizzeria",
+    "note": "",
     "address": "",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 389-9489",
-    "cuisine": "Photo of Square Deli Pizzeria",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Square",
-        "Deli",
-        "Pizzeria"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Square Deli Pizzeria",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Gauchão Brazilian Cuisine",
+    "note": "",
     "address": "",
-    "phone": "(617) 625-6100",
-    "cuisine": "Gauchão Brazilian Cuisine",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Gauchão",
-        "Brazilian",
-        "Cuisine"
-      ],
-      "location": []
-    },
+    "phone": "(617) 625-6100",
     "website": "",
-    "cid": ""
+    "cuisine": "Gauchão Brazilian Cuisine",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Gustazo Cuban Kitchen & Bar - Cambridge",
+    "note": "",
     "address": "2067 Massachusetts Ave, Cambridge, MA 02140",
-    "phone": "(855) 487-8296",
-    "cuisine": "Gustazo Cuban Kitchen & Bar - Cambridge",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Gustazo",
-        "Cuban",
-        "Kitchen",
-        "Bar",
-        "Cambridge"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
+    "phone": "(855) 487-8296",
     "website": "",
-    "cid": ""
+    "cuisine": "Gustazo Cuban Kitchen & Bar - Cambridge",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Mirchi Nation-Indian Kitchen",
+    "note": "",
     "address": "477 Harvard Street",
-    "phone": "",
-    "cuisine": "Mirchi+Nation-Indian+Kitchen boston",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Mirchi+Nation-Indian+Kitchen",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "Mirchi+Nation-Indian+Kitchen boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Lê Madeline",
+    "note": "",
     "address": "409 Hancock St, Quincy, MA 02171",
+    "rating": "4.3",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 328-9600",
-    "cuisine": "Vietnamese restaurant",
-    "rating": 4.3,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Vietnamese",
-        "Restaurant"
-      ],
-      "location": [
-        "Quincy"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Vietnamese restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Nan Xiang Express - Boston Chinatown",
+    "note": "",
     "address": "52 Beach St, Boston, MA 02111",
+    "rating": "4.3",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 992-2600",
-    "cuisine": "Restaurant",
-    "rating": 4.3,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "McGonagle’s Pub & Restaurant",
+    "note": "Spice bag!!",
     "address": "367 Neponset Ave, Dorchester, MA 02122",
-    "phone": "(617) 514-4689",
-    "cuisine": "McGonagle’s Pub & Restaurant",
-    "rating": 4.5,
-    "review_count": 0,
+    "rating": "4.5",
     "hours": "",
-    "notes": "Spice bag!!",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "McGonagle’s",
-        "Pub",
-        "Restaurant"
-      ],
-      "location": [
-        "Dorchester"
-      ]
-    },
+    "phone": "(617) 514-4689",
     "website": "",
-    "cid": ""
+    "cuisine": "McGonagle’s Pub & Restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Anthony's Famous Roast Beef & Pizza",
+    "note": "Gambino cheese steak",
     "address": "216 Main St, Reading, MA 01867",
+    "rating": "4.0",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(781) 942-0100",
-    "cuisine": "Photo of Anthony's Roast Beef",
-    "rating": 4.0,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "Gambino cheese steak",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Anthony's",
-        "Roast",
-        "Beef"
-      ],
-      "location": [
-        "Reading"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Anthony's Roast Beef",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Ruka",
+    "note": "",
     "address": "505 Washington St, Boston, MA 02111",
+    "rating": "4.4",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 266-0102",
-    "cuisine": "Fine dining restaurant",
-    "rating": 4.4,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Fine",
-        "Dining",
-        "Restaurant"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Fine dining restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Too Hot",
+    "note": "",
     "address": "16-18 Eliot St LG1, Cambridge, MA 02138",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 10:30 PM Show open hours for the week",
     "phone": "(617) 945-1206",
-    "cuisine": "Restaurant",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 10:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Darling",
+    "note": "",
     "address": "464 Massachusetts Ave",
-    "phone": "(857) 338-1113",
-    "cuisine": "Stylish bar producing craft cocktails",
-    "rating": 4.0,
-    "review_count": 0,
+    "rating": "4.0",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Stylish",
-        "Bar",
-        "Producing",
-        "Craft",
-        "Cocktails"
-      ],
-      "location": []
-    },
+    "phone": "(857) 338-1113",
     "website": "",
-    "cid": ""
+    "cuisine": "Stylish bar producing craft cocktails",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "PapiVivi Latin Food & Catering/Tripleta, Chopped Cheese & Shuco City",
+    "note": "",
     "address": "816 Boston St, Lynn, MA 01905",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(339) 440-5562",
-    "cuisine": "PapiVivi Latin Food & Catering/Tripleta, Chopped Cheese & Shuco City",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "PapiVivi",
-        "Latin",
-        "Food",
-        "Catering/Tripleta",
-        "Chopped",
-        "Cheese",
-        "Shuco",
-        "City"
-      ],
-      "location": [
-        "Lynn"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "PapiVivi Latin Food & Catering/Tripleta, Chopped Cheese & Shuco City",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "La Fonda St - Boston",
+    "note": "",
     "address": "1620 Commonwealth Ave, Brighton, MA 02135",
-    "phone": "(617) 487-5645",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Brighton"
-      ]
-    },
+    "phone": "(617) 487-5645",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Antojitos",
+    "note": "",
     "address": "507 Medford St",
-    "phone": "",
-    "cuisine": "Restaurant",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Saloon",
+    "note": "",
     "address": "255 Elm St, Somerville, MA 02144",
+    "rating": "4.5",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 628-4444",
-    "cuisine": "Refined, speakeasy-style pub known for its beer & whiskey options also serves elevated bistro eats.",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Refined",
-        "Speakeasy-Style",
-        "Pub",
-        "Known",
-        "For",
-        "Its",
-        "Beer",
-        "Whiskey",
-        "Options",
-        "Also",
-        "Serves",
-        "Elevated",
-        "Bistro",
-        "Eats."
-      ],
-      "location": [
-        "Somerville"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Refined, speakeasy-style pub known for its beer & whiskey options also serves elevated bistro eats.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Deep Cuts",
+    "note": "",
     "address": "21 Main St, Medford, MA 02155",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 11 PM Show open hours for the week",
     "phone": "(781) 219-3815",
-    "cuisine": "Restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 11 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Medford"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "State Park",
+    "note": "",
     "address": "Lower Level, 15 Hampshire St Bldg 300",
-    "phone": "",
-    "cuisine": "American eats, cocktails, beer & pinball",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "American",
-        "Eats",
-        "Cocktails",
-        "Beer",
-        "Pinball"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "American eats, cocktails, beer & pinball",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Extra Dirty Cocktail Club",
+    "note": "",
     "address": "",
+    "rating": "4.8",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "",
-    "cuisine": "Extra Dirty Cocktail Club",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Extra",
-        "Dirty",
-        "Cocktail",
-        "Club"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Extra Dirty Cocktail Club",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Mahaniyom",
+    "note": "",
     "address": "236 Washington St, Brookline, MA 02445",
+    "rating": "4.5",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
     "phone": "(617) 487-5986",
-    "cuisine": "Compact, brick-lined haunt with a chill vibe specializing in craft cocktails & Thai sharing plates.",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Opens soon · 4 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Compact",
-        "Brick-Lined",
-        "Haunt",
-        "With",
-        "Chill",
-        "Vibe",
-        "Specializing",
-        "Craft",
-        "Cocktails",
-        "Thai",
-        "Sharing",
-        "Plates."
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Compact, brick-lined haunt with a chill vibe specializing in craft cocktails & Thai sharing plates.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "MADA - Halal Food Truck",
+    "note": "",
     "address": "530 2nd St",
-    "phone": "",
-    "cuisine": "MADA+-+Halal+Food+Truck boston",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "MADA+-+Halal+Food+Truck",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "",
     "website": "",
-    "cid": ""
+    "cuisine": "MADA+-+Halal+Food+Truck boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Gary's Pizza",
+    "note": "",
     "address": "1744 Washington St, Boston, MA 02118",
-    "phone": "(617) 858-0101",
-    "cuisine": "Photo of Gary's Pizza",
-    "rating": 4.8,
-    "review_count": 0,
+    "rating": "4.8",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Gary's",
-        "Pizza"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
+    "phone": "(617) 858-0101",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Gary's Pizza",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Comfort Kitchen",
+    "note": "",
     "address": "",
-    "phone": "(617) 329-6910",
-    "cuisine": "Photo of Comfort Kitchen",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Comfort",
-        "Kitchen"
-      ],
-      "location": []
-    },
+    "phone": "(617) 329-6910",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Comfort Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Murl's Kitchen",
+    "note": "",
     "address": "143 Washington St, Dorchester, MA 02121",
+    "rating": "4.1",
+    "hours": "Hours Open · Closes 8:30 PM Show open hours for the week",
     "phone": "(617) 506-7331",
-    "cuisine": "Photo of Murl's Kitchen",
-    "rating": 4.1,
-    "review_count": 0,
-    "hours": "Open · Closes 8:30 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Murl's",
-        "Kitchen"
-      ],
-      "location": [
-        "Dorchester"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Murl's Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Yeanie's Dorchester",
+    "note": "",
     "address": "39 Savin Hill Ave, Dorchester, MA 02125",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 580-9980",
-    "cuisine": "Restaurant",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Dorchester"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Buk Kyung Korean Cuisine",
+    "note": "",
     "address": "",
-    "phone": "(617) 623-7220",
-    "cuisine": "Buk Kyung Korean Cuisine",
-    "rating": 4.3,
-    "review_count": 0,
+    "rating": "4.3",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Buk",
-        "Kyung",
-        "Korean",
-        "Cuisine"
-      ],
-      "location": []
-    },
+    "phone": "(617) 623-7220",
     "website": "",
-    "cid": ""
+    "cuisine": "Buk Kyung Korean Cuisine",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Pound House Coffee",
+    "note": "",
     "address": "",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 8 AM Sat Show open hours for the week",
     "phone": "(603) 266-8186",
-    "cuisine": "Photo of Pound House Coffee",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 8 AM Sat",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Pound",
-        "House",
-        "Coffee"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Pound House Coffee",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "New Deal Fruit Inc",
+    "note": "",
     "address": "",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(781) 284-9825",
-    "cuisine": "Photo of New Deal Fruit Inc",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "New",
-        "Deal",
-        "Fruit",
-        "Inc"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of New Deal Fruit Inc",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Merai",
+    "note": "",
     "address": "14 Harvard St, Brookline, MA 02445",
+    "rating": "4.6",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 505-6851",
-    "cuisine": "Restaurant",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Closed · Opens 5 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Turkish Lazuri Cafe",
+    "note": "",
     "address": "1 N Beacon St, Allston, MA 02134",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 3 AM Show open hours for the week",
     "phone": "(774) 678-7940",
-    "cuisine": "Photo of Turkish Lazuri Cafe",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Open · Closes 3 AM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Turkish",
-        "Lazuri",
-        "Cafe"
-      ],
-      "location": [
-        "Allston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Turkish Lazuri Cafe",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "BANH MI OI - Waltham",
+    "note": "",
     "address": "1097 Lexington St, Waltham, MA 02452",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(781) 472-2883",
-    "cuisine": "Vietnamese restaurant",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Open · Closes 8 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Vietnamese",
-        "Restaurant"
-      ],
-      "location": [
-        "Waltham"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Vietnamese restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Bits & Bites Bakery + Cafe",
+    "note": "",
     "address": "488 Lincoln Ave",
-    "phone": "(781) 698-2907",
-    "cuisine": "Bits+&+Bites+Bakery+++Cafe boston",
-    "rating": 4.9,
-    "review_count": 0,
+    "rating": "4.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Bits+&+Bites+Bakery+++Cafe",
-        "Boston"
-      ],
-      "location": []
-    },
+    "phone": "(781) 698-2907",
     "website": "",
-    "cid": ""
+    "cuisine": "Bits+&+Bites+Bakery+++Cafe boston",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Pollo 2Go Cambridge - New Caribbean Restaurant in Cambridge",
+    "note": "",
     "address": "169 Harvard St, Cambridge, MA 02139",
+    "rating": "3.9",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 661-3910",
-    "cuisine": "Pollo 2Go Cambridge - New Caribbean Restaurant in Cambridge",
-    "rating": 3.9,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Pollo",
-        "2Go",
-        "Cambridge",
-        "New",
-        "Caribbean",
-        "Restaurant",
-        "Cambridge"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Pollo 2Go Cambridge - New Caribbean Restaurant in Cambridge",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "La Parada Dominican Kitchen",
+    "note": "",
     "address": "3094 Washington St, Boston, MA 02119",
-    "phone": "(617) 942-7599",
-    "cuisine": "La Parada Dominican Kitchen",
-    "rating": 4.4,
-    "review_count": 0,
+    "rating": "4.4",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Parada",
-        "Dominican",
-        "Kitchen"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
+    "phone": "(617) 942-7599",
     "website": "",
-    "cid": ""
+    "cuisine": "La Parada Dominican Kitchen",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Yafa Bakery & Café",
+    "note": "",
     "address": "594 Somerville Ave, Somerville, MA 02143",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 7 PM Show open hours for the week",
     "phone": "(617) 616-5310",
-    "cuisine": "Photo of Yafa Bakery & Café",
-    "rating": 4.9,
-    "review_count": 0,
-    "hours": "Open · Closes 7 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Yafa",
-        "Bakery",
-        "Café"
-      ],
-      "location": [
-        "Somerville"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Yafa Bakery & Café",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Kyuramen - Winchester",
+    "note": "",
     "address": "538 Main St, Winchester, MA 01890",
-    "phone": "(781) 369-1331",
-    "cuisine": "Restaurant",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        ""
-      ],
-      "location": [
-        "Winchester"
-      ]
-    },
+    "phone": "(781) 369-1331",
     "website": "",
-    "cid": ""
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "DP Saigon Subs",
+    "note": "",
     "address": "310 Main St, Malden, MA 02148",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 7 PM Show open hours for the week",
     "phone": "(781) 990-5500",
-    "cuisine": "Photo of DP Saigon Subs",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 7 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Saigon",
-        "Subs"
-      ],
-      "location": [
-        "Malden"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of DP Saigon Subs",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Rondo's Submarine Sandwiches",
+    "note": "",
     "address": "",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 6 PM Show open hours for the week",
     "phone": "(617) 269-0274",
-    "cuisine": "Rondo's Submarine Sandwiches",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Open · Closes 6 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Rondo's",
-        "Submarine",
-        "Sandwiches"
-      ],
-      "location": []
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Rondo's Submarine Sandwiches",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Soul on Shawmut",
+    "note": "",
     "address": "",
-    "phone": "(617) 238-7525",
-    "cuisine": "Photo of Soul on Shawmut",
-    "rating": 4.5,
-    "review_count": 0,
+    "rating": "4.5",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Soul",
-        "Shawmut"
-      ],
-      "location": []
-    },
+    "phone": "(617) 238-7525",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Soul on Shawmut",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Ssaanjh Indian",
+    "note": "",
     "address": "1012 Beacon St, Brookline, MA 02446",
-    "phone": "(617) 786-5555",
-    "cuisine": "Photo of Ssaanjh Indian",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Ssaanjh",
-        "Indian"
-      ],
-      "location": [
-        "Brookline"
-      ]
-    },
+    "phone": "(617) 786-5555",
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Ssaanjh Indian",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Zoe’s Chinese Restaurant",
+    "note": "",
     "address": "296 Beacon St, Somerville, MA 02143",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 864-6265",
-    "cuisine": "Zoe’s Chinese Restaurant",
-    "rating": 4.5,
-    "review_count": 0,
-    "hours": "Open · Closes 10 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Zoe’s",
-        "Chinese",
-        "Restaurant"
-      ],
-      "location": [
-        "Somerville"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Zoe’s Chinese Restaurant",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Cafe Itadaki",
+    "note": "",
     "address": "24 Harvard St",
-    "phone": "(617) 267-0840",
-    "cuisine": "Get directions to Cafe Itadaki",
-    "rating": 3.9,
-    "review_count": 0,
+    "rating": "3.9",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Get",
-        "Directions",
-        "Cafe",
-        "Itadaki"
-      ],
-      "location": []
-    },
+    "phone": "(617) 267-0840",
     "website": "",
-    "cid": ""
+    "cuisine": "Get directions to Cafe Itadaki",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Carl's Steak Subs",
+    "note": "",
     "address": "55 Prospect St, Waltham, MA 02453",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(781) 893-9313",
-    "cuisine": "Photo of Carl's Steak Subs",
-    "rating": 4.6,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Carl's",
-        "Steak",
-        "Subs"
-      ],
-      "location": [
-        "Waltham"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Carl's Steak Subs",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Tu y Yo",
+    "note": "",
     "address": "",
-    "phone": "(617) 623-5411",
-    "cuisine": "Slow-cooked Mexican dishes are the specialty of this colorfully decorated restaurant.",
-    "rating": 4.6,
-    "review_count": 0,
+    "rating": "4.6",
     "hours": "",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Slow-cooked",
-        "Mexican",
-        "Dishes",
-        "Are",
-        "The",
-        "Specialty",
-        "This",
-        "Colorfully",
-        "Decorated",
-        "Restaurant."
-      ],
-      "location": []
-    },
+    "phone": "(617) 623-5411",
     "website": "",
-    "cid": ""
+    "cuisine": "Slow-cooked Mexican dishes are the specialty of this colorfully decorated restaurant.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Lilly's Gourmet Pasta Express",
+    "note": "",
     "address": "1528 Tremont St, Boston, MA 02120",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(617) 427-8080",
-    "cuisine": "Lilly's Gourmet Pasta Express",
-    "rating": 4.8,
-    "review_count": 0,
-    "hours": "Open · Closes 9 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Lilly's",
-        "Gourmet",
-        "Pasta",
-        "Express"
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Lilly's Gourmet Pasta Express",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Figaro’s Boston",
+    "note": "",
     "address": "105 Beach St, Boston, MA 02111",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 11:30 AM Mon Show open hours for the week",
     "phone": "(617) 426-2121",
-    "cuisine": "Family-run Italian deli turning out elevated sandwiches, wraps, soups & breakfast items.",
-    "rating": 4.7,
-    "review_count": 0,
-    "hours": "Closed · Opens 11:30 AM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Family-run",
-        "Italian",
-        "Deli",
-        "Turning",
-        "Out",
-        "Elevated",
-        "Sandwiches",
-        "Wraps",
-        "Soups",
-        "Breakfast",
-        "Items."
-      ],
-      "location": [
-        "Boston"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Family-run Italian deli turning out elevated sandwiches, wraps, soups & breakfast items.",
+    "cid": "",
+    "maps_url": ""
   },
   {
     "name": "Lavash Bar & Grille",
+    "note": "",
     "address": "26 New St, Cambridge, MA 02138",
+    "rating": "4.3",
+    "hours": "Hours Open · Closes 11 PM Show open hours for the week",
     "phone": "(617) 714-4478",
-    "cuisine": "Photo of Lavash Bar & Grille",
-    "rating": 4.3,
-    "review_count": 0,
-    "hours": "Open · Closes 11 PM",
-    "notes": "",
-    "maps_url": "",
-    "tags": {
-      "cuisine": [
-        "Photo",
-        "Lavash",
-        "Bar",
-        "Grille"
-      ],
-      "location": [
-        "Cambridge"
-      ]
-    },
     "website": "",
-    "cid": ""
+    "cuisine": "Photo of Lavash Bar & Grille",
+    "cid": "",
+    "maps_url": ""
   }
 ]
