@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Antojitos",
+    "note": "",
+    "address": "507 Medford St",
+    "rating": "4.9",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Saloon",
+    "note": "",
+    "address": "255 Elm St, Somerville, MA 02144",
+    "rating": "4.5",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(617) 628-4444",
+    "website": "",
+    "cuisine": "Refined, speakeasy-style pub known for its beer & whiskey options also serves elevated bistro eats.",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Deep Cuts",
+    "note": "",
+    "address": "21 Main St, Medford, MA 02155",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 11 PM Show open hours for the week",
+    "phone": "(781) 219-3815",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "State Park",
+    "note": "",
+    "address": "Lower Level, 15 Hampshire St Bldg 300",
+    "rating": "4.6",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "American eats, cocktails, beer & pinball",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Extra Dirty Cocktail Club",
+    "note": "",
+    "address": "",
+    "rating": "4.8",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "",
+    "website": "",
+    "cuisine": "Extra Dirty Cocktail Club",
+    "cid": "",
+    "maps_url": ""
+  }
+]

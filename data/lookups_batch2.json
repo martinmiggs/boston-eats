@@ -1,0 +1,38 @@
+[
+  {
+    "name": "NAMU Distilling Co.",
+    "note": "",
+    "address": "89 Heath St, Boston, MA 02130",
+    "rating": "4.8",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "",
+    "website": "namudistilling.com",
+    "cuisine": "Nearby restaurants",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "R&S Jamaican Restaurant",
+    "note": "",
+    "address": "38 Norfolk St, Dorchester, MA 02124",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
+    "phone": "(617) 275-0018",
+    "website": "rs-jamaicanrestaurant.com",
+    "cuisine": "R&S Jamaican Restaurant",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Season to Taste",
+    "note": "",
+    "address": "1678 Massachusetts Ave, Cambridge, MA 02138",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(617) 826-9037",
+    "website": "seasontotaste.com",
+    "cuisine": "Nearby restaurants",
+    "cid": "",
+    "maps_url": ""
+  }
+]

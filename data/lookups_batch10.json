@@ -1,0 +1,62 @@
+[
+  {
+    "name": "MACHI - South Indian Kitchen",
+    "note": "",
+    "address": "477 Harvard St",
+    "rating": "4.3",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "MACHI+-+South+Indian+Kitchen boston",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Chivo Taqueria",
+    "note": "Papusas",
+    "address": "1728 Massachusetts Ave, Cambridge, MA 02138",
+    "rating": "4.6",
+    "hours": "",
+    "phone": "(857) 242-3343",
+    "website": "",
+    "cuisine": "Photo of Chivo Taqueria",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Mahalab Bakery",
+    "note": "",
+    "address": "1786 Massachusetts Ave, Cambridge, MA 02140",
+    "rating": "5.0",
+    "hours": "Hours Closes soon · 4 PM · Opens 9 AM Sat Show open hours for the week",
+    "phone": "(617) 501-3416",
+    "website": "",
+    "cuisine": "Photo of Mahalab Bakery",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Black Ruby: Thai Craft Burger & Dining",
+    "note": "",
+    "address": "1790 Massachusetts Ave, Cambridge, MA 02140",
+    "rating": "4.7",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
+    "phone": "(617) 945-3147",
+    "website": "",
+    "cuisine": "Black Ruby: Thai Craft Burger & Dining",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Elia Taverna Marblehead",
+    "note": "",
+    "address": "261 Washington St, Marblehead, MA 01945",
+    "rating": "4.8",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
+    "phone": "(781) 499-5006",
+    "website": "",
+    "cuisine": "Elia Taverna Marblehead",
+    "cid": "",
+    "maps_url": ""
+  }
+]

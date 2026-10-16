@@ -1,0 +1,546 @@
+[
+  {
+    "name": "Kush Modern Mediterranean",
+    "note": ""
+  },
+  {
+    "name": "Kajiken",
+    "note": "Soupless ramen & Karaage Curry Don!!"
+  },
+  {
+    "name": "The Curry Chapter",
+    "note": ""
+  },
+  {
+    "name": "NAMU Distilling Co.",
+    "note": ""
+  },
+  {
+    "name": "R&S Jamaican Restaurant",
+    "note": ""
+  },
+  {
+    "name": "Season to Taste",
+    "note": "Chef's tasting menu at the counter"
+  },
+  {
+    "name": "Bricco Salumeria & Pasta Shop",
+    "note": ""
+  },
+  {
+    "name": "Mother's East Tavern",
+    "note": "Smash Burger!!"
+  },
+  {
+    "name": "Boston King Coffee",
+    "note": ""
+  },
+  {
+    "name": "えびすや",
+    "note": "One night pizza night"
+  },
+  {
+    "name": "Chacarero",
+    "note": ""
+  },
+  {
+    "name": "Kenzoku Mazesoba",
+    "note": ""
+  },
+  {
+    "name": "Novo Lantern 燈火阑珊",
+    "note": ""
+  },
+  {
+    "name": "Yum! by Kaju",
+    "note": ""
+  },
+  {
+    "name": "Bocadillos",
+    "note": "Empanadas"
+  },
+  {
+    "name": "Chinatown Cafe",
+    "note": "Roast duck and roast pork"
+  },
+  {
+    "name": "The Banshee",
+    "note": "Spice bag!!"
+  },
+  {
+    "name": "Tavern at the End of the World",
+    "note": "Ask for spice bag"
+  },
+  {
+    "name": "La Cabaña Foodtruck",
+    "note": ""
+  },
+  {
+    "name": "Nouvé Bakery",
+    "note": ""
+  },
+  {
+    "name": "norinori",
+    "note": ""
+  },
+  {
+    "name": "Sizzle n’ Slurp",
+    "note": ""
+  },
+  {
+    "name": "Big Al's Pizza",
+    "note": "Angry Roni Pizza"
+  },
+  {
+    "name": "Thonglor",
+    "note": ""
+  },
+  {
+    "name": "I Fresh Noodle",
+    "note": ""
+  },
+  {
+    "name": "Annie's Pizzeria",
+    "note": "Birria Pizza"
+  },
+  {
+    "name": "Rassa Indian Cuisine",
+    "note": ""
+  },
+  {
+    "name": "Juanitas Kitchen",
+    "note": ""
+  },
+  {
+    "name": "BABA SHAWARMA",
+    "note": ""
+  },
+  {
+    "name": "Crystal Spoons",
+    "note": ""
+  },
+  {
+    "name": "Cathay Kitchen",
+    "note": "Spice bag!!!"
+  },
+  {
+    "name": "Third Time Together",
+    "note": ""
+  },
+  {
+    "name": "Jahunger Cambridge",
+    "note": ""
+  },
+  {
+    "name": "Ashami momo",
+    "note": ""
+  },
+  {
+    "name": "Suya Joint",
+    "note": ""
+  },
+  {
+    "name": "Alma Gaucha",
+    "note": "Brazilian recommend"
+  },
+  {
+    "name": "The Down Low",
+    "note": "Speakeasy"
+  },
+  {
+    "name": "Jim's Market",
+    "note": "Honey mustard tenders sub"
+  },
+  {
+    "name": "MACHI - South Indian Kitchen",
+    "note": ""
+  },
+  {
+    "name": "Chivo Taqueria",
+    "note": "Papusas"
+  },
+  {
+    "name": "Mahalab Bakery",
+    "note": ""
+  },
+  {
+    "name": "Black Ruby: Thai Craft Burger & Dining",
+    "note": ""
+  },
+  {
+    "name": "Elia Taverna Marblehead",
+    "note": ""
+  },
+  {
+    "name": "Lucy's Craft Deli",
+    "note": ""
+  },
+  {
+    "name": "The Golden Monkey Cafe",
+    "note": ""
+  },
+  {
+    "name": "SANBADA",
+    "note": ""
+  },
+  {
+    "name": "FRIES B4 GUYS",
+    "note": ""
+  },
+  {
+    "name": "Kokoro Don Cafe",
+    "note": ""
+  },
+  {
+    "name": "Chicho's Boston",
+    "note": ""
+  },
+  {
+    "name": "Mala Town 自选麻辣烫",
+    "note": "Make your own hotpot"
+  },
+  {
+    "name": "Maq's",
+    "note": ""
+  },
+  {
+    "name": "Aama Lama",
+    "note": ""
+  },
+  {
+    "name": "Pueblo Viejo",
+    "note": ""
+  },
+  {
+    "name": "The Greek Gyro",
+    "note": ""
+  },
+  {
+    "name": "KChickin (Korean, Sushi, Hand roll and Japanese Cuisine)",
+    "note": ""
+  },
+  {
+    "name": "Cafe Noodo",
+    "note": ""
+  },
+  {
+    "name": "Dynasty",
+    "note": "Vegetarian rice roll"
+  },
+  {
+    "name": "Taqueria El Amigo",
+    "note": ""
+  },
+  {
+    "name": "Feng Shui",
+    "note": "Buffet"
+  },
+  {
+    "name": "Taqueria La Unica",
+    "note": ""
+  },
+  {
+    "name": "Lanner Noodles&Bar",
+    "note": ""
+  },
+  {
+    "name": "Ama at The Atlas",
+    "note": ""
+  },
+  {
+    "name": "Joanie's Pizza",
+    "note": ""
+  },
+  {
+    "name": "Burg & Shaw",
+    "note": ""
+  },
+  {
+    "name": "BaYao Cafe 伯友茶記",
+    "note": "Crispy chicken with omelette rice"
+  },
+  {
+    "name": "Silver Whisk Bake Shop & Chocolatier",
+    "note": ""
+  },
+  {
+    "name": "Aatma At Widowmaker",
+    "note": ""
+  },
+  {
+    "name": "Olba",
+    "note": ""
+  },
+  {
+    "name": "Little Big Diner",
+    "note": ""
+  },
+  {
+    "name": "Grandma’s Kitchen",
+    "note": ""
+  },
+  {
+    "name": "The Charcoal Pit Mediterranean Grill",
+    "note": ""
+  },
+  {
+    "name": "Park's Kitchen",
+    "note": ""
+  },
+  {
+    "name": "Fallow Kin",
+    "note": ""
+  },
+  {
+    "name": "Vang Coffee Bar",
+    "note": ""
+  },
+  {
+    "name": "Brookline Lunch",
+    "note": ""
+  },
+  {
+    "name": "Endless Hibachi & Sushi Peabody (AYCE)",
+    "note": ""
+  },
+  {
+    "name": "Cafe Mami",
+    "note": ""
+  },
+  {
+    "name": "Home Taste",
+    "note": ""
+  },
+  {
+    "name": "The Modern Butcher",
+    "note": ""
+  },
+  {
+    "name": "Nagomi Bento Bow Market",
+    "note": ""
+  },
+  {
+    "name": "Bao's Kitchen 包园",
+    "note": ""
+  },
+  {
+    "name": "School Street Foods",
+    "note": ""
+  },
+  {
+    "name": "Roksana",
+    "note": ""
+  },
+  {
+    "name": "Chung-Shin Yuan",
+    "note": ""
+  },
+  {
+    "name": "La Bodega",
+    "note": ""
+  },
+  {
+    "name": "Trencito - Taqueria & Deli",
+    "note": ""
+  },
+  {
+    "name": "Fuchun Ju",
+    "note": "Pan fried pork buns"
+  },
+  {
+    "name": "Potluck Cafe",
+    "note": "Pan fried pork dumplings"
+  },
+  {
+    "name": "Crush Pizza",
+    "note": "Chicken Caesar sub"
+  },
+  {
+    "name": "Miraku Boston",
+    "note": "Tsuramen"
+  },
+  {
+    "name": "Square Deli Pizzeria",
+    "note": ""
+  },
+  {
+    "name": "Gauchão Brazilian Cuisine",
+    "note": ""
+  },
+  {
+    "name": "Gustazo Cuban Kitchen & Bar - Cambridge",
+    "note": ""
+  },
+  {
+    "name": "Mirchi Nation-Indian Kitchen",
+    "note": ""
+  },
+  {
+    "name": "Lê Madeline",
+    "note": ""
+  },
+  {
+    "name": "Nan Xiang Express - Boston Chinatown",
+    "note": ""
+  },
+  {
+    "name": "McGonagle’s Pub & Restaurant",
+    "note": "Spice bag!!"
+  },
+  {
+    "name": "Anthony's Famous Roast Beef & Pizza",
+    "note": "Gambino cheese steak"
+  },
+  {
+    "name": "Ruka",
+    "note": ""
+  },
+  {
+    "name": "Too Hot",
+    "note": ""
+  },
+  {
+    "name": "Darling",
+    "note": ""
+  },
+  {
+    "name": "PapiVivi Latin Food & Catering/Tripleta, Chopped Cheese & Shuco City",
+    "note": ""
+  },
+  {
+    "name": "La Fonda St - Boston",
+    "note": ""
+  },
+  {
+    "name": "Antojitos",
+    "note": ""
+  },
+  {
+    "name": "Saloon",
+    "note": ""
+  },
+  {
+    "name": "Deep Cuts",
+    "note": ""
+  },
+  {
+    "name": "State Park",
+    "note": ""
+  },
+  {
+    "name": "Extra Dirty Cocktail Club",
+    "note": ""
+  },
+  {
+    "name": "Mahaniyom",
+    "note": ""
+  },
+  {
+    "name": "MADA - Halal Food Truck",
+    "note": ""
+  },
+  {
+    "name": "Gary's Pizza",
+    "note": ""
+  },
+  {
+    "name": "Comfort Kitchen",
+    "note": ""
+  },
+  {
+    "name": "Murl's Kitchen",
+    "note": ""
+  },
+  {
+    "name": "Yeanie's Dorchester",
+    "note": ""
+  },
+  {
+    "name": "Buk Kyung Korean Cuisine",
+    "note": ""
+  },
+  {
+    "name": "Pound House Coffee",
+    "note": ""
+  },
+  {
+    "name": "New Deal Fruit Inc",
+    "note": ""
+  },
+  {
+    "name": "Merai",
+    "note": ""
+  },
+  {
+    "name": "Turkish Lazuri Cafe",
+    "note": ""
+  },
+  {
+    "name": "BANH MI OI - Waltham",
+    "note": ""
+  },
+  {
+    "name": "Bits & Bites Bakery + Cafe",
+    "note": ""
+  },
+  {
+    "name": "Pollo 2Go Cambridge - New Caribbean Restaurant in Cambridge",
+    "note": ""
+  },
+  {
+    "name": "La Parada Dominican Kitchen",
+    "note": ""
+  },
+  {
+    "name": "Yafa Bakery & Café",
+    "note": ""
+  },
+  {
+    "name": "Kyuramen - Winchester",
+    "note": ""
+  },
+  {
+    "name": "DP Saigon Subs",
+    "note": ""
+  },
+  {
+    "name": "Rondo's Submarine Sandwiches",
+    "note": ""
+  },
+  {
+    "name": "Soul on Shawmut",
+    "note": ""
+  },
+  {
+    "name": "Ssaanjh Indian",
+    "note": ""
+  },
+  {
+    "name": "Zoe’s Chinese Restaurant",
+    "note": ""
+  },
+  {
+    "name": "Cafe Itadaki",
+    "note": ""
+  },
+  {
+    "name": "Carl's Steak Subs",
+    "note": ""
+  },
+  {
+    "name": "Tu y Yo",
+    "note": ""
+  },
+  {
+    "name": "Lilly's Gourmet Pasta Express",
+    "note": ""
+  },
+  {
+    "name": "Figaro’s Boston",
+    "note": ""
+  },
+  {
+    "name": "Lavash Bar & Grille",
+    "note": ""
+  }
+]

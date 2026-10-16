@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Yafa Bakery & Café",
+    "note": "",
+    "address": "594 Somerville Ave, Somerville, MA 02143",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 7 PM Show open hours for the week",
+    "phone": "(617) 616-5310",
+    "website": "",
+    "cuisine": "Photo of Yafa Bakery & Café",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Kyuramen - Winchester",
+    "note": "",
+    "address": "538 Main St, Winchester, MA 01890",
+    "rating": "4.6",
+    "hours": "",
+    "phone": "(781) 369-1331",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "DP Saigon Subs",
+    "note": "",
+    "address": "310 Main St, Malden, MA 02148",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 7 PM Show open hours for the week",
+    "phone": "(781) 990-5500",
+    "website": "",
+    "cuisine": "Photo of DP Saigon Subs",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Rondo's Submarine Sandwiches",
+    "note": "",
+    "address": "",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 6 PM Show open hours for the week",
+    "phone": "(617) 269-0274",
+    "website": "",
+    "cuisine": "Rondo's Submarine Sandwiches",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Soul on Shawmut",
+    "note": "",
+    "address": "",
+    "rating": "4.5",
+    "hours": "",
+    "phone": "(617) 238-7525",
+    "website": "",
+    "cuisine": "Photo of Soul on Shawmut",
+    "cid": "",
+    "maps_url": ""
+  }
+]

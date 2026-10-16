@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Sizzle n’ Slurp",
+    "note": "",
+    "address": "",
+    "rating": "4.9",
+    "hours": "",
+    "phone": "(617) 764-2087",
+    "website": "",
+    "cuisine": "",
+    "cid": "9935916056205776151",
+    "maps_url": "https://www.google.com/maps/?cid=9935916056205776151"
+  },
+  {
+    "name": "I Fresh Noodle",
+    "note": "",
+    "address": "182 Brighton Ave, Boston, MA 02134",
+    "rating": "4.2",
+    "hours": "Hours Open · Closes 9:30 PM Show open hours for the week",
+    "phone": "(617) 787-8888",
+    "website": "",
+    "cuisine": "Photo of I Fresh Noodle",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Annie's Pizzeria",
+    "note": "Birria Pizza",
+    "address": "213 Middlesex Ave, Medford, MA 02155",
+    "rating": "4.5",
+    "hours": "",
+    "phone": "(781) 219-3731",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Rassa Indian Cuisine",
+    "note": "",
+    "address": "470 Moody St, Waltham, MA 02453",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(781) 472-4000",
+    "website": "",
+    "cuisine": "Photo of Rassa Indian Cuisine",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Juanitas Kitchen",
+    "note": "",
+    "address": "235 Newton St, Waltham, MA 02453",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
+    "phone": "(781) 790-8567",
+    "website": "",
+    "cuisine": "Photo of Juanitas Kitchen",
+    "cid": "",
+    "maps_url": ""
+  }
+]

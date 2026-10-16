@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Vang Coffee Bar",
+    "note": "",
+    "address": "1456 Hancock St, Quincy, MA 02169",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
+    "phone": "(617) 481-1018",
+    "website": "",
+    "cuisine": "Photo of Vang Coffee Bar",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Brookline Lunch",
+    "note": "",
+    "address": "9 Brookline St, Cambridge, MA 02139",
+    "rating": "4.4",
+    "hours": "Hours Closed · Opens 8:30 AM Sat Show open hours for the week",
+    "phone": "(617) 354-2983",
+    "website": "",
+    "cuisine": "Photo of Brookline Lunch",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Endless Hibachi & Sushi Peabody (AYCE)",
+    "note": "",
+    "address": "82 Newbury St 2nd FL, Peabody, MA 01960",
+    "rating": "4.6",
+    "hours": "Hours Closed · Opens 4:30 PM Show open hours for the week",
+    "phone": "(978) 854-5125",
+    "website": "",
+    "cuisine": "Endless Hibachi & Sushi Peabody (AYCE)",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Cafe Mami",
+    "note": "",
+    "address": "1815 Massachusetts Ave, Cambridge, MA 02140",
+    "rating": "4.6",
+    "hours": "Hours Closes soon · 4 PM · Reopens 5 PM Show open hours for the week",
+    "phone": "(617) 547-9130",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Home Taste",
+    "note": "",
+    "address": "58 Mt Auburn St, Watertown, MA 02472",
+    "rating": "4.3",
+    "hours": "",
+    "phone": "(617) 923-0227",
+    "website": "",
+    "cuisine": "Small, vibrant eatery offering Sichuan dishes from noodles to stir-fries, plus lunch specials.",
+    "cid": "",
+    "maps_url": ""
+  }
+]

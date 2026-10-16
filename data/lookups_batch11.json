@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Lucy's Craft Deli",
+    "note": "",
+    "address": "472 High St, Medford, MA 02155",
+    "rating": "4.8",
+    "hours": "Hours Closed · Opens 10:30 AM Sat Show open hours for the week",
+    "phone": "(781) 852-2005",
+    "website": "",
+    "cuisine": "Photo of Lucy's Craft Deli",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "The Golden Monkey Cafe",
+    "note": "",
+    "address": "468 Chestnut St, Lynn, MA 01902",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
+    "phone": "(781) 778-3342",
+    "website": "",
+    "cuisine": "The Golden Monkey Cafe",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "SANBADA",
+    "note": "",
+    "address": "165 Brighton Ave, Allston, MA 02134",
+    "rating": "4.8",
+    "hours": "",
+    "phone": "(617) 870-7674",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "FRIES B4 GUYS",
+    "note": "",
+    "address": "485 Cambridge St, Boston, MA 02134",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 2 AM Show open hours for the week",
+    "phone": "(857) 498-3839",
+    "website": "",
+    "cuisine": "Photo of FRIES B4 GUYS",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Kokoro Don Cafe",
+    "note": "",
+    "address": "66 Summer St, Somerville, MA 02143",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
+    "phone": "(857) 500-7937",
+    "website": "",
+    "cuisine": "Photo of Kokoro Don Cafe",
+    "cid": "",
+    "maps_url": ""
+  }
+]

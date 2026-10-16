@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Little Big Diner",
+    "note": "",
+    "address": "1247 Centre St, Newton, MA 02459",
+    "rating": "4.6",
+    "hours": "Hours Closed · Opens 4:30 PM Show open hours for the week",
+    "phone": "(857) 404-0068",
+    "website": "",
+    "cuisine": "Photo of Little Big Diner",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Grandma’s Kitchen",
+    "note": "",
+    "address": "823 Washington St, Newton, MA 02460",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 6 PM Show open hours for the week",
+    "phone": "(617) 467-5215",
+    "website": "",
+    "cuisine": "Photo of Grandma’s Kitchen",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "The Charcoal Pit Mediterranean Grill",
+    "note": "",
+    "address": "",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
+    "phone": "(978) 519-3079",
+    "website": "",
+    "cuisine": "The Charcoal Pit Mediterranean Grill",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Park's Kitchen",
+    "note": "",
+    "address": "122 Brighton Ave, Allston, MA 02134",
+    "rating": "4.9",
+    "hours": "",
+    "phone": "(617) 618-8099",
+    "website": "",
+    "cuisine": "Photo of Park's Kitchen",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Fallow Kin",
+    "note": "",
+    "address": "853 Main St, Cambridge, MA 02139",
+    "rating": "4.4",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(617) 395-1098",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  }
+]

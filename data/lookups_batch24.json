@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Mahaniyom",
+    "note": "",
+    "address": "236 Washington St, Brookline, MA 02445",
+    "rating": "4.5",
+    "hours": "Hours Opens soon · 4 PM Show open hours for the week",
+    "phone": "(617) 487-5986",
+    "website": "",
+    "cuisine": "Compact, brick-lined haunt with a chill vibe specializing in craft cocktails & Thai sharing plates.",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "MADA - Halal Food Truck",
+    "note": "",
+    "address": "530 2nd St",
+    "rating": "4.9",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "MADA+-+Halal+Food+Truck boston",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Gary's Pizza",
+    "note": "",
+    "address": "1744 Washington St, Boston, MA 02118",
+    "rating": "4.8",
+    "hours": "",
+    "phone": "(617) 858-0101",
+    "website": "",
+    "cuisine": "Photo of Gary's Pizza",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Comfort Kitchen",
+    "note": "",
+    "address": "",
+    "rating": "4.6",
+    "hours": "",
+    "phone": "(617) 329-6910",
+    "website": "",
+    "cuisine": "Photo of Comfort Kitchen",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Murl's Kitchen",
+    "note": "",
+    "address": "143 Washington St, Dorchester, MA 02121",
+    "rating": "4.1",
+    "hours": "Hours Open · Closes 8:30 PM Show open hours for the week",
+    "phone": "(617) 506-7331",
+    "website": "",
+    "cuisine": "Photo of Murl's Kitchen",
+    "cid": "",
+    "maps_url": ""
+  }
+]

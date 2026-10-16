@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ssaanjh Indian",
+    "note": "",
+    "address": "1012 Beacon St, Brookline, MA 02446",
+    "rating": "4.6",
+    "hours": "",
+    "phone": "(617) 786-5555",
+    "website": "",
+    "cuisine": "Photo of Ssaanjh Indian",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Zoe’s Chinese Restaurant",
+    "note": "",
+    "address": "296 Beacon St, Somerville, MA 02143",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
+    "phone": "(617) 864-6265",
+    "website": "",
+    "cuisine": "Zoe’s Chinese Restaurant",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Cafe Itadaki",
+    "note": "",
+    "address": "24 Harvard St",
+    "rating": "3.9",
+    "hours": "",
+    "phone": "(617) 267-0840",
+    "website": "",
+    "cuisine": "Get directions to Cafe Itadaki",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Carl's Steak Subs",
+    "note": "",
+    "address": "55 Prospect St, Waltham, MA 02453",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
+    "phone": "(781) 893-9313",
+    "website": "",
+    "cuisine": "Photo of Carl's Steak Subs",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Tu y Yo",
+    "note": "",
+    "address": "",
+    "rating": "4.6",
+    "hours": "",
+    "phone": "(617) 623-5411",
+    "website": "",
+    "cuisine": "Slow-cooked Mexican dishes are the specialty of this colorfully decorated restaurant.",
+    "cid": "",
+    "maps_url": ""
+  }
+]

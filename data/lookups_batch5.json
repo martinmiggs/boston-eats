@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Bocadillos",
+    "note": "",
+    "address": "293 Cypress St, Brookline, MA 02445",
+    "rating": "4.9",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
+    "phone": "(617) 739-5500",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Chinatown Cafe",
+    "note": "",
+    "address": "262 Harrison Ave, Boston, MA 02111",
+    "rating": "4.1",
+    "hours": "Hours Open · Closes 7 PM Show open hours for the week",
+    "phone": "(617) 695-9888",
+    "website": "",
+    "cuisine": "Photo of Chinatown Cafe",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "The Banshee",
+    "note": "",
+    "address": "934 Dorchester Ave, Boston, MA 02125",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 1 AM Show open hours for the week",
+    "phone": "(617) 436-9747",
+    "website": "",
+    "cuisine": "Irish sports pub playing rugby & soccer matches on numerous TVs, with a bar menu & pints of beer.",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Tavern at the End of the World",
+    "note": "",
+    "address": "108 Cambridge St, Charlestown, MA 02129",
+    "rating": "4.6",
+    "hours": "Hours Open · Closes 2 AM Show open hours for the week",
+    "phone": "(617) 241-4999",
+    "website": "",
+    "cuisine": "Tavern at the End of the World",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "La Cabaña Foodtruck",
+    "note": "",
+    "address": "386 Main St, Melrose, MA 02176",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
+    "phone": "(857) 452-6231",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  }
+]

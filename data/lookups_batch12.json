@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chicho's Boston",
+    "note": "",
+    "address": "88 Seaport Blvd, Boston, MA 02210",
+    "rating": "5.0",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
+    "phone": "",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Mala Town 自选麻辣烫",
+    "note": "Make your own hotpot",
+    "address": "194 Harvard Ave",
+    "rating": "4.2",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Maq's",
+    "note": "",
+    "address": "176 University Ave, Lowell, MA 01854",
+    "rating": "4.5",
+    "hours": "Hours Open · Closes 9 PM Show open hours for the week",
+    "phone": "(978) 427-7976",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Aama Lama",
+    "note": "",
+    "address": "519 Main St, Malden, MA 02148",
+    "rating": "4.8",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
+    "phone": "(781) 321-8800",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Pueblo Viejo",
+    "note": "",
+    "address": "170 Marion St",
+    "rating": "4.1",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "Salvadoran restaurant",
+    "cid": "",
+    "maps_url": ""
+  }
+]

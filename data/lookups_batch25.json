@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Yeanie's Dorchester",
+    "note": "",
+    "address": "39 Savin Hill Ave, Dorchester, MA 02125",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 10 PM Show open hours for the week",
+    "phone": "(617) 580-9980",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Buk Kyung Korean Cuisine",
+    "note": "",
+    "address": "",
+    "rating": "4.3",
+    "hours": "",
+    "phone": "(617) 623-7220",
+    "website": "",
+    "cuisine": "Buk Kyung Korean Cuisine",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Pound House Coffee",
+    "note": "",
+    "address": "",
+    "rating": "4.7",
+    "hours": "Hours Closed · Opens 8 AM Sat Show open hours for the week",
+    "phone": "(603) 266-8186",
+    "website": "",
+    "cuisine": "Photo of Pound House Coffee",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "New Deal Fruit Inc",
+    "note": "",
+    "address": "",
+    "rating": "4.7",
+    "hours": "Hours Open · Closes 8 PM Show open hours for the week",
+    "phone": "(781) 284-9825",
+    "website": "",
+    "cuisine": "Photo of New Deal Fruit Inc",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Merai",
+    "note": "",
+    "address": "14 Harvard St, Brookline, MA 02445",
+    "rating": "4.6",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(617) 505-6851",
+    "website": "",
+    "cuisine": "",
+    "cid": "",
+    "maps_url": ""
+  }
+]
