@@ -318,6 +318,17 @@ header p.sub, #subtitle {
   font-size: 14px;
   color: #CBD8D3;
 }
+.pull-quote {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--paper);
+  border-left: 3px solid var(--sand);
+  padding: 8px 14px;
+  margin: 8px 0 16px;
+  line-height: 1.45;
+  background: rgba(201,162,39,0.06);
+}
 .map-link {
   display: block;
   background: var(--sand);
@@ -854,9 +865,9 @@ header p.sub, #subtitle {
     });
     html += '</div>';
 
-    // User notes
+    // Pull-quote user note
     if (r.notes) {
-      html += `<div class="user-note-detail">📝 ${esc(r.notes)}</div>`;
+      html += `<div class="pull-quote">${esc(r.notes)}</div>`;
     }
 
     // Map link
