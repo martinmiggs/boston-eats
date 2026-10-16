@@ -1,17 +1,5 @@
 [
   {
-    "name": "Ashami momo",
-    "note": "",
-    "address": "278 Pearl St, Malden, MA 02148",
-    "rating": "4.9",
-    "hours": "",
-    "phone": "(781) 960-8819",
-    "website": "",
-    "cuisine": "",
-    "cid": "",
-    "maps_url": ""
-  },
-  {
     "name": "Suya Joint",
     "note": "",
     "address": "185 Dudley St, Boston, MA 02119",
@@ -19,7 +7,7 @@
     "hours": "Hours Open · Closes 9 PM Show open hours for the week",
     "phone": "(857) 351-3717",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Casual space for a menu of traditional Western African cooking as well as a full bar.",
     "cid": "",
     "maps_url": ""
   },
@@ -38,12 +26,12 @@
   {
     "name": "The Down Low",
     "note": "Speakeasy",
-    "address": "371 Main St Underground, Woburn, MA 01801",
-    "rating": "4.2",
-    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
-    "phone": "(781) 935-6699",
+    "address": "371 Main St Underground",
+    "rating": "3.4",
+    "hours": "· Opens 5 PM",
+    "phone": "",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Learn more about legal disclosure regarding public reviews on Google Maps",
     "cid": "",
     "maps_url": ""
   },
@@ -55,7 +43,19 @@
     "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(781) 395-5704",
     "website": "",
-    "cuisine": "Easygoing stop for basic groceries, sundries & a deli offering subs & breakfast sandwiches.",
+    "cuisine": "Photo of Jim's Market",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "MACHI - South Indian Kitchen",
+    "note": "",
+    "address": "184 Cambridge Street",
+    "rating": "4.3",
+    "hours": "· Opens 5 PM",
+    "phone": "",
+    "website": "",
+    "cuisine": "MACHI+-+South+Indian+Kitchen boston ma",
     "cid": "",
     "maps_url": ""
   }
