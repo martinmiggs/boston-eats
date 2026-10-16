@@ -1,19 +1,19 @@
 [
   {
     "name": "Bocadillos",
-    "note": "",
+    "note": "Empanadas",
     "address": "293 Cypress St, Brookline, MA 02445",
     "rating": "4.9",
     "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(617) 739-5500",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Cool takeaway dishing up housemade Latin American empanadas with savory fillings.",
     "cid": "",
     "maps_url": ""
   },
   {
     "name": "Chinatown Cafe",
-    "note": "",
+    "note": "Roast duck and roast pork",
     "address": "262 Harrison Ave, Boston, MA 02111",
     "rating": "4.1",
     "hours": "Hours Open · Closes 7 PM Show open hours for the week",
@@ -25,7 +25,7 @@
   },
   {
     "name": "The Banshee",
-    "note": "",
+    "note": "Spice bag!!",
     "address": "934 Dorchester Ave, Boston, MA 02125",
     "rating": "4.6",
     "hours": "Hours Open · Closes 1 AM Show open hours for the week",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Tavern at the End of the World",
-    "note": "",
+    "note": "Ask for spice bag",
     "address": "108 Cambridge St, Charlestown, MA 02129",
     "rating": "4.6",
     "hours": "Hours Open · Closes 2 AM Show open hours for the week",
@@ -55,7 +55,7 @@
     "hours": "Hours Open · Closes 8 PM Show open hours for the week",
     "phone": "(857) 452-6231",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Photo of La Cabaña Foodtruck",
     "cid": "",
     "maps_url": ""
   }
