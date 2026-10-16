@@ -1,14 +1,14 @@
 :root {
-  --bg: #f8f9fa;
-  --card-bg: #ffffff;
-  --text: #1a1a2e;
-  --text-secondary: #555;
+  --bg: #0f0f1a;
+  --card-bg: #1a1a2e;
+  --text: #e8e8ef;
+  --text-secondary: #888;
   --accent: #e63946;
-  --accent-light: #ffd6d9;
-  --border: #e0e0e0;
-  --rating-bg: #fff3cd;
-  --tag-bg: #e8f4f8;
-  --shadow: 0 2px 8px rgba(0,0,0,0.08);
+  --accent-light: #4a2025;
+  --border: #2a2a3e;
+  --rating-bg: #3d3520;
+  --tag-bg: #1a3040;
+  --shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 * {
@@ -98,7 +98,7 @@ main {
 
 .rating {
   background: var(--rating-bg);
-  color: #856404;
+  color: #e0c060;
   font-size: 0.8rem;
   font-weight: 700;
   padding: 2px 8px;
@@ -117,7 +117,7 @@ main {
 
 .user-note {
   background: var(--tag-bg);
-  color: #0c5460;
+  color: #60d0e0;
   font-size: 0.8rem;
   font-weight: 600;
   padding: 2px 8px;
@@ -205,12 +205,12 @@ main {
 
 .user-note-detail {
   background: var(--tag-bg);
-  border-left: 3px solid #0c5460;
+  border-left: 3px solid #1a5060;
   padding: 10px 14px;
   border-radius: 0 8px 8px 0;
   margin-bottom: 16px;
   font-size: 0.9rem;
-  color: #0c5460;
+  color: #60d0e0;
 }
 
 .map-link {
@@ -283,7 +283,7 @@ main {
   padding: 12px 14px;
   border-radius: 8px;
   font-size: 0.9rem;
-  color: #0c5460;
+  color: #60d0e0;
   margin-bottom: 16px;
 }
 
@@ -363,8 +363,8 @@ main {
 }
 
 .suggestion-item mark {
-  background: #ffe066;
-  color: var(--text);
+  background: #c0a020;
+  color: #1a1a2e;
   font-weight: 700;
   border-radius: 2px;
   padding: 0 2px;
@@ -385,15 +385,15 @@ main {
   border-radius: 20px;
   font-size: 0.82rem;
   font-weight: 600;
-  background: #e8f4f8;
-  color: #0c5460;
+  background: #1a3040;
+  color: #60d0e0;
   cursor: pointer;
   user-select: none;
   transition: background 0.1s ease;
 }
 
 .chip:hover {
-  background: #d0e8f0;
+  background: #1a4050;
 }
 
 .chip-remove {
@@ -403,7 +403,7 @@ main {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.15);
   font-size: 0.75rem;
   line-height: 1;
   margin-left: 2px;
@@ -452,19 +452,19 @@ main {
 }
 
 .tag-cuisine {
-  background: #fff3cd;
-  color: #856404;
+  background: #3d3520;
+  color: #e0c060;
 }
 
 .tag-location {
-  background: #e8f4f8;
-  color: #0c5460;
+  background: #1a3040;
+  color: #60d0e0;
 }
 
 .detail-tags {
   margin-bottom: 12px;
   padding: 8px 12px;
-  background: #f8f9fa;
+  background: #14142a;
   border-radius: 8px;
   font-size: 0.85rem;
 }
