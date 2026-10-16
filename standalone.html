@@ -831,6 +831,11 @@ header p.sub, #subtitle {
       </div>
     `;
 
+    // Pull-quote user note
+    if (r.notes) {
+      html += `<div class="pull-quote">${esc(r.notes)}</div>`;
+    }
+
     // Info
     html += `
       <div class="detail-info">
@@ -864,11 +869,6 @@ header p.sub, #subtitle {
       html += `<span class="day">${day}</span><span class="value ${hours === 'Closed' ? 'closed' : ''}">${esc(hours)}</span>`;
     });
     html += '</div>';
-
-    // Pull-quote user note
-    if (r.notes) {
-      html += `<div class="pull-quote">${esc(r.notes)}</div>`;
-    }
 
     // Map link
     html += `<a href="${r.maps_url}" class="map-link" target="_blank" rel="noopener">📍 Open in Google Maps</a>`;
