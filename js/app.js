@@ -328,4 +328,5 @@
 
   // Expose showDetail globally for onclick
   window.showDetail = showDetail;
+  window.renderList = renderList;
 })();
