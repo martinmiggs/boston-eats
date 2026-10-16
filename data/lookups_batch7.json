@@ -1,17 +1,5 @@
 [
   {
-    "name": "Sizzle n’ Slurp",
-    "note": "",
-    "address": "",
-    "rating": "4.9",
-    "hours": "",
-    "phone": "(617) 764-2087",
-    "website": "",
-    "cuisine": "",
-    "cid": "9935916056205776151",
-    "maps_url": "https://www.google.com/maps/?cid=9935916056205776151"
-  },
-  {
     "name": "I Fresh Noodle",
     "note": "",
     "address": "182 Brighton Ave, Boston, MA 02134",
@@ -28,7 +16,7 @@
     "note": "Birria Pizza",
     "address": "213 Middlesex Ave, Medford, MA 02155",
     "rating": "4.5",
-    "hours": "",
+    "hours": "Open · Closes 11 PM · See more hours",
     "phone": "(781) 219-3731",
     "website": "",
     "cuisine": "",
@@ -56,6 +44,18 @@
     "phone": "(781) 790-8567",
     "website": "",
     "cuisine": "Photo of Juanitas Kitchen",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "BABA SHAWARMA",
+    "note": "",
+    "address": "100 Blackstone St, Boston, MA 02109",
+    "rating": "4.4",
+    "hours": "Open · Closes 11 PM · Confirmed by this business 11 weeks ago · See more hours",
+    "phone": "(617) 857-2222",
+    "website": "",
+    "cuisine": "Photo of BABA SHAWARMA",
     "cid": "",
     "maps_url": ""
   }
