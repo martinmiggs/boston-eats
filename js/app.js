@@ -130,6 +130,10 @@
   function updateSuggestions(allTags) {
     const suggestionsEl = document.getElementById('suggestions');
     if (!suggestionsEl) return;
+    if (_inputValue.length < 2) {
+      suggestionsEl.innerHTML = '';
+      return;
+    }
     const allActive = [...activeFilters.cuisine, ...activeFilters.location];
     const suggestions = allTags.filter(t =>
       !allActive.includes(t) && t.toLowerCase().includes(_inputValue.toLowerCase())
