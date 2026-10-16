@@ -1,13 +1,13 @@
 [
   {
     "name": "えびすや",
-    "note": "",
-    "address": "24 High St",
+    "note": "One night pizza night",
+    "address": "24 High St, Medford, MA 02155",
     "rating": "4.7",
-    "hours": "",
-    "phone": "",
+    "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
+    "phone": "(781) 391-0012",
     "website": "",
-    "cuisine": "Ebisuya - Japanese Noodle House",
+    "cuisine": "Grocery store offering foods imported from Japan, sushi-quality fish & kitchenware.",
     "cid": "",
     "maps_url": ""
   },
@@ -16,10 +16,10 @@
     "note": "",
     "address": "101 Arch St, Boston, MA 02110",
     "rating": "4.6",
-    "hours": "Hours Closes soon · 4 PM · Opens 11 AM Mon Show open hours for the week",
+    "hours": "Hours Closed · Opens 11 AM Mon Show open hours for the week",
     "phone": "(617) 542-0392",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Identifies as Latino-owned",
     "cid": "",
     "maps_url": ""
   },
@@ -51,11 +51,11 @@
     "name": "Yum! by Kaju",
     "note": "",
     "address": "54 Harvard Ave",
-    "rating": "4.4",
+    "rating": "4.8",
     "hours": "",
     "phone": "",
     "website": "",
-    "cuisine": "",
+    "cuisine": "Learn more about legal disclosure regarding public reviews on Google Maps",
     "cid": "",
     "maps_url": ""
   }
