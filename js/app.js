@@ -66,37 +66,26 @@
     html += `<input type="text" id="filter-input" class="filter-input" placeholder="Add filter (e.g. Chinese, Downtown)..." value="${esc(_inputValue)}" oninput="handleInput(event)" onkeydown="handleKeyDown(event)" onfocus="showDropdown()" onblur="hideDropdown()" />`;
     html += '<div id="suggestions" class="suggestions"></div>';
     html += '<div id="active-filters" class="active-filters"></div>';
-    if (allActive.length > 0) {
-      html += `<div class="filter-count" id="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
-    } else {
-      html += '<div id="filter-count" style="display:none"></div>';
-    }
+    html += `<div class="filter-count" id="filter-count">${filtered.length} of ${restaurants.length} restaurants</div>`;
     html += '</div>';
 
-    // Restaurant cards
+    // Restaurant cards as timeline stops
     if (filtered.length === 0) {
-      html += '<p class="no-results">No restaurants match your filters.</p>';
+      html += '<div class="empty">No restaurants match your filters.</div>';
     } else {
+      html += '<div class="list">';
       filtered.forEach((r, idx) => {
         const origIdx = restaurants.indexOf(r);
-        html += `
-          <div class="restaurant-card" onclick="showDetail(${origIdx})">
-            <div class="name">${esc(r.name)}</div>
-            <div class="cuisine">${esc(r.cuisine)}</div>
-            <div class="tags">
-              ${(r.tags?.cuisine || []).map(t => `<span class="tag tag-cuisine">${esc(t)}</span>`).join('')}
-              ${(r.tags?.location || []).map(t => `<span class="tag tag-location">${esc(t)}</span>`).join('')}
-            </div>
-            <div class="address">${esc(r.address)}</div>
-            <div class="meta">
-              <span class="rating">★ ${r.rating}</span>
-              <span class="review-count">(${r.review_count} reviews)</span>
-              <span class="phone">${esc(r.phone)}</span>
-              ${r.notes ? `<span class="user-note">📝 ${esc(r.notes)}</span>` : ''}
-            </div>
-          </div>
-        `;
+        const cuisineTags = (r.tags?.cuisine || []).map(t => `<span class="tag tag-cuisine">${esc(t)}</span>`).join('');
+        const locationTags = (r.tags?.location || []).map(t => `<span class="tag tag-location">${esc(t)}</span>`).join('');
+        html += `<div class="stop" onclick="showDetail(${origIdx})">`;
+        html += `<span class="node"></span>`;
+        html += `<div class="head"><h3>${esc(r.name)}</h3><span class="price">★ ${r.rating}</span></div>`;
+        html += `<div class="meta">${esc(r.cuisine)} · ${esc(r.address)}</div>`;
+        html += `<div class="tags">${cuisineTags}${locationTags}<span class="review-count">(${r.review_count} reviews)</span>${r.notes ? `<span class="user-note">📝 ${esc(r.notes)}</span>` : ''}</div>`;
+        html += '</div>';
       });
+      html += '</div>';
     }
     app.innerHTML = html;
 
@@ -115,8 +104,8 @@
     if (!container) return;
     container.innerHTML = allActive.map(tag => {
       const cat = getTagCategory(tag);
-      const icon = cat === 'cuisine' ? '🍽' : '📍';
-      return `<span class="chip" onclick="removeFilter('${esc(tag)}')">${icon} ${esc(tag)} <span class="chip-remove">×</span></span>`;
+      const color = cat === 'cuisine' ? 'var(--sand)' : 'var(--blue)';
+      return `<span class="chip" onclick="removeFilter('${esc(tag)}')" aria-pressed="true" style="color:${color}">${esc(tag)} <span class="chip-remove">×</span></span>`;
     }).join('');
   }
 
