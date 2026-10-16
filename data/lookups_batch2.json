@@ -6,8 +6,8 @@
     "rating": "4.8",
     "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "",
-    "website": "namudistilling.com",
-    "cuisine": "Nearby restaurants",
+    "website": "",
+    "cuisine": "",
     "cid": "",
     "maps_url": ""
   },
@@ -18,20 +18,20 @@
     "rating": "4.9",
     "hours": "Hours Open · Closes 10 PM Show open hours for the week",
     "phone": "(617) 275-0018",
-    "website": "rs-jamaicanrestaurant.com",
+    "website": "",
     "cuisine": "R&S Jamaican Restaurant",
     "cid": "",
     "maps_url": ""
   },
   {
     "name": "Season to Taste",
-    "note": "",
+    "note": "Chef's tasting menu at the counter",
     "address": "1678 Massachusetts Ave, Cambridge, MA 02138",
     "rating": "4.7",
     "hours": "Hours Closed · Opens 5 PM Show open hours for the week",
     "phone": "(617) 826-9037",
-    "website": "seasontotaste.com",
-    "cuisine": "Nearby restaurants",
+    "website": "",
+    "cuisine": "",
     "cid": "",
     "maps_url": ""
   }
