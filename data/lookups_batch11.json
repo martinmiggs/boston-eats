@@ -1,17 +1,5 @@
 [
   {
-    "name": "Lucy's Craft Deli",
-    "note": "",
-    "address": "472 High St, Medford, MA 02155",
-    "rating": "4.8",
-    "hours": "Hours Closed · Opens 10:30 AM Sat Show open hours for the week",
-    "phone": "(781) 852-2005",
-    "website": "",
-    "cuisine": "Photo of Lucy's Craft Deli",
-    "cid": "",
-    "maps_url": ""
-  },
-  {
     "name": "The Golden Monkey Cafe",
     "note": "",
     "address": "468 Chestnut St, Lynn, MA 01902",
@@ -28,7 +16,7 @@
     "note": "",
     "address": "165 Brighton Ave, Allston, MA 02134",
     "rating": "4.8",
-    "hours": "",
+    "hours": "Open · Closes 10 PM · See more hours",
     "phone": "(617) 870-7674",
     "website": "",
     "cuisine": "",
@@ -43,7 +31,7 @@
     "hours": "Hours Open · Closes 2 AM Show open hours for the week",
     "phone": "(857) 498-3839",
     "website": "",
-    "cuisine": "Photo of FRIES B4 GUYS",
+    "cuisine": "Four halal burgers, all on buns baked in-house every morning: the FBG Burger, the Blue Royal, the Midnight Fire and a build your own. $12.99 as a sing",
     "cid": "",
     "maps_url": ""
   },
@@ -56,6 +44,18 @@
     "phone": "(857) 500-7937",
     "website": "",
     "cuisine": "Photo of Kokoro Don Cafe",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Mala Town 自选麻辣烫",
+    "note": "Make your own hotpot",
+    "address": "194 Harvard Ave",
+    "rating": "4.7",
+    "hours": "",
+    "phone": "",
+    "website": "",
+    "cuisine": "Learn more about legal disclosure regarding public reviews on Google Maps",
     "cid": "",
     "maps_url": ""
   }
