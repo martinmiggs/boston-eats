@@ -1,25 +1,13 @@
 [
   {
-    "name": "BABA SHAWARMA",
-    "note": "",
-    "address": "100 Blackstone St, Boston, MA 02109",
-    "rating": "4.4",
-    "hours": "",
-    "phone": "(617) 857-2222",
-    "website": "",
-    "cuisine": "Photo of BABA SHAWARMA",
-    "cid": "",
-    "maps_url": ""
-  },
-  {
     "name": "Crystal Spoons",
     "note": "",
     "address": "1950 Washington St, Boston, MA 02118",
     "rating": "4.6",
-    "hours": "",
+    "hours": "Open · Closes 11 PM · See more hours",
     "phone": "(781) 499-5933",
     "website": "",
-    "cuisine": "Photo of Crystal Spoons",
+    "cuisine": "Identifies as Asian-owned",
     "cid": "",
     "maps_url": ""
   },
@@ -28,7 +16,7 @@
     "note": "Spice bag!!!",
     "address": "563 High St, Dedham, MA 02026",
     "rating": "4.0",
-    "hours": "",
+    "hours": "Open · Closes 10 PM · See more hours",
     "phone": "(781) 329-2786",
     "website": "",
     "cuisine": "Photo of Cathay Kitchen",
@@ -52,10 +40,22 @@
     "note": "",
     "address": "272 Brookline St, Cambridge, MA 02139",
     "rating": "4.3",
-    "hours": "",
+    "hours": "Closed · Opens 5 PM · See more hours",
     "phone": "(617) 801-9725",
     "website": "",
     "cuisine": "Uyghur cuisine restaurant",
+    "cid": "",
+    "maps_url": ""
+  },
+  {
+    "name": "Ashami momo",
+    "note": "",
+    "address": "278 Pearl St, Malden, MA 02148",
+    "rating": "4.9",
+    "hours": "Open · Closes 11 PM · See more hours",
+    "phone": "(781) 960-8819",
+    "website": "",
+    "cuisine": "",
     "cid": "",
     "maps_url": ""
   }
