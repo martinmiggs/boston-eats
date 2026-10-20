@@ -405,19 +405,80 @@ header p.sub, #subtitle {
   justify-content: center;
 }
 .pickbar button {
-  font-family: "Fraunces", Georgia, serif;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 13px 26px;
-  background: var(--paper);
-  color: var(--ink);
-  border: 1px solid var(--paper);
-  border-radius: 999px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-  cursor: pointer;
+font-family: "Fraunces", Georgia, serif;
+font-size: 16px;
+font-weight: 600;
+padding: 13px 26px;
+background: var(--paper);
+color: var(--ink);
+border: 1px solid var(--paper);
+border-radius: 999px;
+box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+cursor: pointer;
 }
 
-  </style>
+/* ---------- add-restaurant form ---------- */
+.add-form {
+background: var(--ink-2);
+border: 1px solid var(--ink-3);
+border-radius: var(--radius);
+padding: 16px;
+margin-top: 24px;
+}
+.add-form h2 {
+font-family: "Fraunces", Georgia, serif;
+font-weight: 600;
+font-size: 17px;
+margin: 0 0 10px;
+color: var(--paper);
+}
+.add-form p.hint {
+font-size: 13px;
+color: var(--paper-dim);
+margin: 0 0 12px;
+line-height: 1.4;
+}
+.add-form input[type=url] {
+width: 100%;
+background: var(--ink);
+border: 1px solid var(--ink-3);
+color: var(--paper);
+font-family: "IBM Plex Sans", sans-serif;
+font-size: 14px;
+padding: 10px 12px;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+.add-form input[type=url]:focus {
+outline: 2px solid var(--sand);
+outline-offset: 2px;
+border-color: var(--sand);
+}
+.add-form input[type=url]::placeholder { color: #6E8489; }
+.add-form button {
+width: 100%;
+font-family: "IBM Plex Sans", sans-serif;
+font-size: 14px;
+font-weight: 600;
+padding: 11px 16px;
+background: var(--sand);
+color: var(--ink);
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+.add-form button:hover { opacity: 0.9; }
+.add-form button:disabled { opacity: 0.5; cursor: not-allowed; }
+.add-form .status {
+margin-top: 10px;
+font-size: 13px;
+min-height: 20px;
+}
+.add-form .status.success { color: var(--green); }
+.add-form .status.error { color: var(--red); }
+.add-form .status.loading { color: var(--paper-dim); }
+
+</style>
 </head>
 <body>
   <header>
@@ -426,6 +487,14 @@ header p.sub, #subtitle {
   </header>
 
   <main id="app"></main>
+
+  <section class="add-form" id="addForm">
+    <h2>Add a Restaurant</h2>
+    <p class="hint">Paste a Google Maps link below and I'll add it to the list.</p>
+    <input type="url" id="addUrl" placeholder="https://maps.google.com/..." />
+    <button id="addBtn" onclick="submitAddForm()">Submit</button>
+    <div class="status" id="addStatus"></div>
+  </section>
 
   <script>
 (function () {
@@ -2786,6 +2855,45 @@ header p.sub, #subtitle {
   window.handleKeyDown = handleKeyDown;
   window.selectSuggestion = selectSuggestion;
   window.highlightIndex = highlightIndex;
+
+  // ---------- Add Restaurant form ----------
+  const WORKER_URL = 'https://worker-add-restaurant.workers-app-name.workers.dev';
+
+  function submitAddForm() {
+    const url = document.getElementById('addUrl').value.trim();
+    const btn = document.getElementById('addBtn');
+    const status = document.getElementById('addStatus');
+    if (!url) { status.className = 'status error'; status.textContent = 'Please enter a Google Maps link.'; return; }
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    status.className = 'status loading';
+    status.textContent = 'Submitting request...';
+    fetch(WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url: url })
+    })
+    .then(r => r.json())
+    .then(data => {
+      if (data.success) {
+        status.className = 'status success';
+        status.textContent = 'Request sent! I\'ll add it and the page will update shortly.';
+        document.getElementById('addUrl').value = '';
+      } else {
+        status.className = 'status error';
+        status.textContent = 'Failed: ' + (data.error || 'Unknown error');
+      }
+      btn.disabled = false;
+      btn.textContent = 'Submit';
+    })
+    .catch(err => {
+      status.className = 'status error';
+      status.textContent = 'Network error. Check your connection.';
+      btn.disabled = false;
+      btn.textContent = 'Submit';
+    });
+  }
+
 })();
 
   </script>
