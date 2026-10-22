@@ -2857,9 +2857,7 @@ min-height: 20px;
   window.highlightIndex = highlightIndex;
 
   // ---------- Add Restaurant form ----------
-  const WORKER_URL = 'https://worker-add-restaurant.workers-app-name.workers.dev';
-
-  function submitAddForm() {
+  window.submitAddForm = function() {
     const url = document.getElementById('addUrl').value.trim();
     const btn = document.getElementById('addBtn');
     const status = document.getElementById('addStatus');
@@ -2868,7 +2866,7 @@ min-height: 20px;
     btn.textContent = 'Sending...';
     status.className = 'status loading';
     status.textContent = 'Submitting request...';
-    fetch(WORKER_URL, {
+    fetch('https://jolly-shape-fce1.varun2211.workers.dev', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url: url })
@@ -2877,7 +2875,7 @@ min-height: 20px;
     .then(data => {
       if (data.success) {
         status.className = 'status success';
-        status.textContent = 'Request sent! I\'ll add it and the page will update shortly.';
+        status.textContent = "Request sent! I'll add it and the page will update shortly.";
         document.getElementById('addUrl').value = '';
       } else {
         status.className = 'status error';
@@ -2892,7 +2890,7 @@ min-height: 20px;
       btn.disabled = false;
       btn.textContent = 'Submit';
     });
-  }
+  };
 
 })();
 
